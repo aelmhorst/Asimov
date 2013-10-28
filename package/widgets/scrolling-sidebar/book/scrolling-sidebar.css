@@ -1,0 +1,52 @@
+/*smartwidget-sidebar*/
+
+.smartwidget-sidebar table.sidebar-widget{
+	border-radius:5px;-webkit-border-radius:5px;border:none;
+	height: 100%;
+}
+.smartwidget-sidebar table.sidebar-widget td{vertical-align:top;padding:0;border:none;}
+.smartwidget-sidebar table.sidebar-widget td.sidebar-content{height:100%;}
+/*NOTE: .sb-inner padding and border values are used in JS. Please compare with JS.*/
+.smartwidget-sidebar .sb-inner{word-wrap: break-word; padding:10px;height:100%;border:#d5d5d5 solid 1px;border-radius:5px;-webkit-border-radius:5px;background:#fff;}
+.smartwidget-sidebar .sidebar-content .sb-inner{overflow:auto;}
+.smartwidget-sidebar .sidebar-content .p{text-indent:0;color:black;}
+.smartwidget-sidebar .sb-header .sidebar-header .sb-inner{
+	border-bottom:none;border-bottom-right-radius: 0;border-bottom-left-radius: 0;
+	-webkit-margin-after: 0px;
+	-webkit-margin-before: 0px;
+}
+.smartwidget-sidebar .sb-header .sidebar-content .sb-inner{border-top-right-radius: 0;border-top-left-radius: 0;}
+.smartwidget-sidebar .sb-footer .sidebar-footer .sb-inner{
+	border-top:none;border-top-right-radius: 0;border-top-left-radius: 0;
+	display: block;
+}
+.smartwidget-sidebar .sb-footer .sidebar-content .sb-inner{border-bottom-right-radius: 0;border-bottom-left-radius: 0;}
+
+.smartwidget-sidebar .sb-gradient{
+  	background: #f8f8f8; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f8f8f8 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8f8f8 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f8f8f8 0%,#efefef 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f8f8f8 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f8f8f8 0%,#efefef 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+}
+
+
+/*bookstyles*/
+
+/*modern*/
+body.modern .smartwidget-sidebar{}
+
+/*classic*/
+body.classic .smartwidget-sidebar{}
+
+/*essentials*/
+body.essentials .smartwidget-sidebar{}
+
+/*playful*/
+body.playful .smartwidget-sidebar{}
+
+/*periodical*/
+body.periodical .smartwidget-sidebar{}

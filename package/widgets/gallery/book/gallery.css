@@ -1,0 +1,94 @@
+/*smartwidget-gallery*/
+
+.smartwidget-gallery{
+    margin-bottom: 30px;
+}
+
+.smartwidget-gallery .main-image-outer{
+	height:100%;
+	overflow:hidden;
+	position:relative;
+	/*-webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.5);*/
+	text-align:center;
+	background:#ffffff;
+    	margin-top: 20px;
+    	border: #d5d5d5 solid 1px;
+	/*border-bottom: none;*/
+}
+.smartwidget-gallery .main-image-inner{
+	height:100%;
+}
+
+.smartwidget-gallery .wraptocenter {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 400px;
+    height: 400px;
+}
+.smartwidget-gallery .wraptocenter * {
+    vertical-align: middle;
+}
+
+.smartwidget-gallery .main-image-inner .slide-wrapper{
+	width: auto;max-width: 100%;max-height: 100%;
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.smartwidget-gallery .main-image-inner img{
+	max-width:100%;
+	max-height:100%;
+}
+
+.smartwidget-gallery .thumb-wrapper-outer{
+	height:80px; /*90px total*/
+	overflow-x:auto;
+	overflow-y:hidden;
+	border:#ccc solid 1px;
+	border-top:none;
+	background:#DDD;
+	border-radius:0 0 4px 4px;
+	padding:5px;
+	position:relative;
+	/*-webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.5);*/
+}
+.smartwidget-gallery .thumb-wrapper-inner {white-space:nowrap;height:80px;}
+.smartwidget-gallery .thumb-wrapper-inner img{
+	position:relative;
+	height: 100%;
+	width:auto;
+	display:inline-block;
+	margin-right:10px;
+	zoom:1;
+}
+
+
+/*bookstyles*/
+
+/*modern*/
+body.modern .smartwidget-gallery .main-image-outer{border-color:#087dbe;}
+body.modern .smartwidget-gallery .thumb-wrapper-outer{border-color:#087dbe;}
+
+/*classic*/
+body.classic .smartwidget-gallery .main-image-outer{border-color:#80680c;}
+body.classic .smartwidget-gallery .thumb-wrapper-outer{border-color:#80680c;}
+
+/*essentials*/
+body.essentials .smartwidget-gallery .main-image-outer{border-color:#d5d5d5;}
+body.essentials .smartwidget-gallery .thumb-wrapper-outer{border-color:#d5d5d5;}
+
+/*playful*/
+body.playful .smartwidget-gallery .main-image-outer{border-color:#00acc8;}
+body.playful .smartwidget-gallery .thumb-wrapper-outer{border-color:#00acc8;}
+
+/*periodical*/
+body.periodical .smartwidget-gallery .main-image-outer{border-color:#d5d5d5;}
+body.periodical .smartwidget-gallery .thumb-wrapper-outer{border-color:#d5d5d5;}
+
+
+
+
+
+
+

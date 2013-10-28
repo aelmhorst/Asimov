@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<widget-pack>
+		<!--<shared scope="*" folder="common-shared"></shared>
+		<shared scope="editor" folder="editor-shared"></shared>-->
+		<shared scope="book" folder="book-shared"></shared>
+		<widgets>
+			<widget name="audio"/>
+			<widget name="video"/>
+			<widget name="text-resizer"/>
+			<widget name="gallery"/>
+			<widget name="popup"/>
+			<widget name="scrolling-sidebar"/>
+			<widget name="quiz-multiple-choice"/>
+		</widgets>
+	</widget-pack>
+</xml>

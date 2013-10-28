@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget>
+    <name>Gallery</name>
+    <author>Metrodigi</author>
+    <version>1.0</version>
+    <label>Gallery</label>
+    <id>ASIMOV_GALLERY</id>
+    <description>gallery widget</description>
+    <dimensions width="950" height="690"/>    
+    <files>
+        <filename resource='book' import='true' init-script='true'>gallery.js</filename>
+        <filename resource='book' import='true'>gallery.css</filename>
+    </files>
+    <!-- Depedencies for this widget, resource=”book” defines that it is for book only. It is ordered -->
+    <dependencies>
+        <dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
+        <dependency resource="book">external/mootools-more-1.4.0.1-yc.js</dependency>
+    </dependencies>
+    <params>
+    </params>
+</widget>
