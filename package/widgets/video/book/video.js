@@ -44,8 +44,8 @@ asimov.Video = new Class({
 		var sources = typeOf(this.url)=='array'?this.url:[this.url];
 		sources.each(function(source){
 			this.el.adopt(new Element('source', {src: source}));
-		});
+		}.bind(this));
 
-		containerEl.adopt(el);
+		containerEl.adopt(this.el);
 	}
-}
+});

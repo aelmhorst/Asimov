@@ -29,14 +29,14 @@ asimov.Audio = new Class({
 		if(this.options.loop) {
 			audioOptions.loop = true;
 		}
-		audioOptions.style = "width: " + this.options.width;
+		audioOptions.styles = {"width": this.options.width};
 		this.el = new Element('audio', audioOptions);
 
 		var sources = typeOf(this.url)=='array'?this.url:[this.url];
 		sources.each(function(source){
 			this.el.adopt(new Element('source', {src: source}));
-		});
+		}.bind(this));
 
-		containerEl.adopt(el);
+		containerEl.adopt(this.el);
 	}
-}
+});

@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+.header {
+	height: 25px;
+	padding: 4px;
+	font-size: 20px;
+	background-color: #444;
+	color: #ccc;
+}
+.left-panel {
+	float: left;
+	width: 200px;
+}
+.right-panel {
+	float: right;
+	width: 640px;
+}
+
+#widget-list {
+	background-color: #EEE;
+	margin: 10px;
+	padding: 10px 10px 10px 0;
+}
+#widget-list li{
+	list-style: none;
+	cursor: pointer;
+	padding: 3px 0;
+}
+#widget-list li:hover{
+	color: 000;
+}
+
+#code-view {
+	margin: 10px;
+	padding: 10px;
+	background-color: #EEE;
+	color: #666;
+}
+
+#code-view #code {
+	font-family: courier;
+	min-height: 150px;
+	padding: 10px;
+}
+
+#preview-view {
+	margin:20px;
+	padding: 10px;
+	border: 2px solid #888;
+	min-height: 330px;
+}
