@@ -1,3 +1,11 @@
+<!--  
+
+Asimov Widget Framework for Books
+MIT License
+http://asimov.chaucercloud.com
+http://www.metrodigi.com
+
+-->
 <?xml version="1.0" encoding="utf-8"?>
 <widget>
     <name>Popup</name>
@@ -16,7 +24,7 @@
         <dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
         <dependency resource="book">external/mootools-more-1.4.0.1-yc.js</dependency>
         <dependency resource="book">mootools-drag-touch.js</dependency>
-        <dependency resource="book">common.js</dependency>
+        <dependency resource="book">common.js</dependency> 
     </dependencies>
     <params>
     </params>

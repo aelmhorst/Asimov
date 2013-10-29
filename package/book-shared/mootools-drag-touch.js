@@ -1,19 +1,11 @@
 /*
----
-script: metrodigi-drag-touch.js
 
-description: Refines Mootools Drag class, and adds Touch capabilities to it. 
+Asimov Widget Framework for Books
+MIT License
+http://asimov.chaucercloud.com
+http://www.metrodigi.com
 
-requires:
- - More/Drag
- - More/Drag.Move
- - More/Class.refactor
-
-provides: [mootools.touch, mootools.drag]
-
-...
 */
-
 Class.refactor(Drag,{
     attach: function(){
         this.handles.addEvent('touchstart', this.bound.start);

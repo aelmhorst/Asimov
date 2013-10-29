@@ -1,4 +1,11 @@
-/*smartwidget-resizer*/
+/*
+
+Asimov Widget Framework for Books
+MIT License
+http://asimov.chaucercloud.com
+http://www.metrodigi.com
+
+*/
 
 .asimov-text-resizer .text-zoom-controls {
 	
@@ -33,38 +40,3 @@
 	background-repeat:no-repeat;
 	background-size:32px;
 }
-
-
-/*bookstyles*/
-
-/*modern*/
-body.modern .asimov-text-resizer .text-zoom-controls .zoom-in{background-image:url("images/zoom-in-modern.png");}
-body.modern .asimov-text-resizer .text-zoom-controls .zoom-out{background-image:url("images/zoom-out-modern.png");}
-body.modern .asimov-text-resizer .text-zoom-controls .zoom-reset{background-image:url("images/reset-modern.png");}
-
-/*classic*/
-body.classic .asimov-text-resizer .text-zoom-controls .zoom-in{background-image:url("images/zoom-in-classic.png");}
-body.classic .asimov-text-resizer .text-zoom-controls .zoom-out{background-image:url("images/zoom-out-classic.png");}
-body.classic .asimov-text-resizer .text-zoom-controls .zoom-reset{background-image:url("images/reset-classic.png");}
-
-/*essentials*/
-body.essentials .asimov-text-resizer .text-zoom-controls .zoom-in{background-image:url("images/zoom-in-essentials.png");}
-body.essentials .asimov-text-resizer .text-zoom-controls .zoom-out{background-image:url("images/zoom-out-essentials.png");}
-body.essentials .asimov-text-resizer .text-zoom-controls .zoom-reset{background-image:url("images/reset-essentials.png");}
-
-/*playful*/
-body.playful .asimov-text-resizer .text-zoom-controls .zoom-in{background-image:url("images/zoom-in-playful.png");}
-body.playful .asimov-text-resizer .text-zoom-controls .zoom-out{background-image:url("images/zoom-out-playful.png");}
-body.playful .asimov-text-resizer .text-zoom-controls .zoom-reset{background-image:url("images/reset-playful.png");}
-
-/*periodical*/
-body.peridical .asimov-text-resizer .text-zoom-controls .zoom-in{background-image:url("images/zoom-in-peridical.png");}
-body.peridical .asimov-text-resizer .text-zoom-controls .zoom-out{background-image:url("images/zoom-out-peridical.png");}
-body.peridical .asimov-text-resizer .text-zoom-controls .zoom-reset{background-image:url("images/reset-peridical.png");}
-
-
-
-
-
-
-

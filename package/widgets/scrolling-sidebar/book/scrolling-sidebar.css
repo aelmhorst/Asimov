@@ -1,4 +1,11 @@
-/*smartwidget-sidebar*/
+/*
+
+Asimov Widget Framework for Books
+MIT License
+http://asimov.chaucercloud.com
+http://www.metrodigi.com
+
+*/
 
 .asimov-scrolling-sidebar table.sidebar-widget{
 	border-radius:5px;-webkit-border-radius:5px;border:none;
@@ -32,21 +39,3 @@
 	background: linear-gradient(to bottom,  #f8f8f8 0%,#efefef 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
 }
-
-
-/*bookstyles*/
-
-/*modern*/
-body.modern .asimov-scrolling-sidebar{}
-
-/*classic*/
-body.classic .asimov-scrolling-sidebar{}
-
-/*essentials*/
-body.essentials .asimov-scrolling-sidebar{}
-
-/*playful*/
-body.playful .asimov-scrolling-sidebar{}
-
-/*periodical*/
-body.periodical .asimov-scrolling-sidebar{}

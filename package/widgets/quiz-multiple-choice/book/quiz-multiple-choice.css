@@ -1,4 +1,11 @@
-/*.asimov-quiz-multiple-choice*/
+/*
+
+Asimov Widget Framework for Books
+MIT License
+http://asimov.chaucercloud.com
+http://www.metrodigi.com
+
+*/
 
 .asimov-quiz-multiple-choice .quiz-wrapper{padding:20px 20px 10px;margin:0;background:#f8f8f8;border:#d5d5d5 solid 1px;border-radius:5px;-webkit-border-radius:5px;}
 
@@ -29,28 +36,3 @@
 .asimov-quiz-multiple-choice .alert-message{width:580px;position:absolute;top:50%;left:50%;margin:-80px 0 0 -301px;text-align:center;background:#e8fae6;border:green solid 1px;border-radius:5px;-webkit-border-radius:5px;padding:5px 10px;font-size:1em;line-height:1em;}
 .asimov-quiz-multiple-choice .alert-message.error{background:#fae6e6;border-color:red;}
 .asimov-quiz-multiple-choice .alert-message p{padding:0;margin:0;}
-
-
-/*bookstyles*/
-
-/*modern*/
-body.modern .asimov-quiz-multiple-choice .quiz-wrapper{border-color:#087dbe;}
-
-/*classic*/
-body.classic .asimov-quiz-multiple-choice .quiz-wrapper{border-color:#80680c;}
-
-/*essentials*/
-body.essentials .asimov-quiz-multiple-choice .quiz-wrapper{border-color:#d5d5d5;}
-
-/*playful*/
-body.playful .asimov-quiz-multiple-choice .quiz-wrapper{border-color:#00acc8;}
-
-/*periodical*/
-body.periodical .asimov-quiz-multiple-choice .quiz-wrapper{border-color:#d5d5d5;}
-
-
-
-
-
-
-

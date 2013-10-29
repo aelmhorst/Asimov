@@ -1,3 +1,11 @@
+<!--  
+
+Asimov Widget Framework for Books
+MIT License
+http://asimov.chaucercloud.com
+http://www.metrodigi.com
+
+-->
 <?xml version="1.0" encoding="utf-8"?>
 <widget>
     <!-- Name of the widget, url attribute specifies external URL for this widget, help-url specifies URL to the help page-->

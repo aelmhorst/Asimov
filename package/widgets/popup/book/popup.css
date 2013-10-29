@@ -1,3 +1,11 @@
+/*
+
+Asimov Widget Framework for Books
+MIT License
+http://asimov.chaucercloud.com
+http://www.metrodigi.com
+
+*/
 .asimov-popup {
   border: 1px dashed #ccc;
   cursor: pointer;
@@ -144,43 +152,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   border-color: #0064cd #0064cd #003f81;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 }
-
-/*bookstyles*/
-
-/*classic*/
-body.classic .modal .modal-footer .btn.primary{
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-image:none;
-  background-color: #80680c;
-  color:white;
-}
-
-/*essentials*/
-body.essentials .modal .modal-footer .btn.primary{
-}
-
-/*modern*/
-body.modern .modal .modal-footer .btn.primary{
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-image:none;
-  background-color: #087dbe;
-  color:white;
-}
-
-/*periodical*/
-body.periodical .modal .modal-footer .btn.primary{
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-image:none;
-  background-color: #d2232a;
-  color:white;
-}
-
-/*playful*/
-body.playful .modal .modal-footer .btn.primary{
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-image:none;
-  background-color: #00acc8;
-  color:white;
-}
-
 /*----- Popup Style END  ------*/

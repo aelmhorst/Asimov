@@ -1,3 +1,11 @@
+/*
+
+Asimov Widget Framework for Books
+MIT License
+http://asimov.chaucercloud.com
+http://www.metrodigi.com
+
+*/
 var asimov = asimov || {};
 asimov.Popup = new Class({
     Extends: asimov.AbstractWidget,

@@ -1,4 +1,11 @@
-/*smartwidget-gallery*/
+/*
+
+Asimov Widget Framework for Books
+MIT License
+http://asimov.chaucercloud.com
+http://www.metrodigi.com
+
+*/
 
 .asimov-gallery{
     margin-bottom: 30px;
@@ -62,33 +69,3 @@
 	margin-right:10px;
 	zoom:1;
 }
-
-
-/*bookstyles*/
-
-/*modern*/
-body.modern .asimov-gallery .main-image-outer{border-color:#087dbe;}
-body.modern .asimov-gallery .thumb-wrapper-outer{border-color:#087dbe;}
-
-/*classic*/
-body.classic .asimov-gallery .main-image-outer{border-color:#80680c;}
-body.classic .asimov-gallery .thumb-wrapper-outer{border-color:#80680c;}
-
-/*essentials*/
-body.essentials .asimov-gallery .main-image-outer{border-color:#d5d5d5;}
-body.essentials .asimov-gallery .thumb-wrapper-outer{border-color:#d5d5d5;}
-
-/*playful*/
-body.playful .asimov-gallery .main-image-outer{border-color:#00acc8;}
-body.playful .asimov-gallery .thumb-wrapper-outer{border-color:#00acc8;}
-
-/*periodical*/
-body.periodical .asimov-gallery .main-image-outer{border-color:#d5d5d5;}
-body.periodical .asimov-gallery .thumb-wrapper-outer{border-color:#d5d5d5;}
-
-
-
-
-
-
-

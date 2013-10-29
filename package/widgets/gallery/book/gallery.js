@@ -1,3 +1,11 @@
+/*
+
+Asimov Widget Framework for Books
+MIT License
+http://asimov.chaucercloud.com
+http://www.metrodigi.com
+
+*/
 (function(){
 var Loop = new Class({
 

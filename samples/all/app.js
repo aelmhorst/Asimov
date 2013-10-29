@@ -1,3 +1,11 @@
+/*
+
+Asimov Widget Framework for Books
+MIT License
+http://asimov.chaucercloud.com
+http://www.metrodigi.com
+
+*/
 (function(){
 	window.randStr = function(len){
 		return (function(){g=function(){c='0123 4567 89ab cde fghi jklmn opqrstuvwxy zAB CDEFG HIJKLM NOPQR STUVWXYZ';p='';for(i=0;i<len;i++){p+=c.charAt(Math.floor(Math.random()*62));}return p;};p=g();while(!/[A-Z]/.test(p)||!/[0-9]/.test(p)||!/[a-z]/.test(p)){p=g();}return p;})()
