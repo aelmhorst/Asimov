@@ -7,12 +7,12 @@ To contribute widgets or code modifications, simply submit a pull request for re
 
 http://opensource.org/licenses/MIT
 
-# Contributing to Asimov
+## Contributing to Asimov
 
 Looking to contribute something to Asimov? **Here's how you can help.**
 
 
-## Reporting issues
+### Reporting issues
 
 We only accept issues that are bug reports or feature requests. Bugs must be isolated and reproducible problems that we can fix within the Bootstrap core. Please read the following guidelines before opening any issue.
 
@@ -23,7 +23,7 @@ We only accept issues that are bug reports or feature requests. Bugs must be iso
 
 
 
-## Pull requests
+### Pull requests
 
 - CSS changes must be done in `.less` files first, never just the compiled `.css` files
 - If modifying the `.less` files, always recompile and commit the compiled files `bootstrap.css` and `bootstrap.min.css`
@@ -33,9 +33,9 @@ We only accept issues that are bug reports or feature requests. Bugs must be iso
 
 
 
-## Coding standards
+### Coding standards
 
-### HTML
+#### HTML
 
 - Two spaces for indentation, never tabs
 - Double quotes only, never single quotes
@@ -43,7 +43,7 @@ We only accept issues that are bug reports or feature requests. Bugs must be iso
 - Use tags and elements appropriate for an HTML5 doctype (e.g., self-closing tags)
 - Use CDNs and HTTPS for third-party JS when possible. We don't use protocol-relative URLs in this case because they break when viewing the page locally via `file://`.
 
-### CSS
+#### CSS
 
 - Adhere to the [RECESS CSS property order](http://markdotto.com/2011/11/29/css-property-order/)
 - Multiple-line approach (one property and value per line)
@@ -52,7 +52,7 @@ We only accept issues that are bug reports or feature requests. Bugs must be iso
 - For multiple, comma-separated selectors, place each selector on its own line
 - Attribute selectors, like `input[type="text"]` should always wrap the attribute's value in double quotes, for consistency and safety (see this [blog post on unquoted attribute values](http://mathiasbynens.be/notes/unquoted-attribute-values) that can lead to XSS attacks).
 
-### JS
+#### JS
 
 - No semicolons
 - Comma first
@@ -62,6 +62,6 @@ We only accept issues that are bug reports or feature requests. Bugs must be iso
 
 
 
-## License
+### License
 
 By contributing your code, you agree to license your contribution under the [MIT](https://github.com/twbs/bootstrap/blob/master/MIT) license.
