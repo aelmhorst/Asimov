@@ -35,6 +35,8 @@
     <dependencies>
         <dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
         <dependency resource="book">external/mootools-more-1.4.0.1-yc.js</dependency>
+        <dependency resource="book">mootools-drag-touch.js</dependency>
+        <dependency resource="book">common.js</dependency>
     </dependencies>
     
     <params>

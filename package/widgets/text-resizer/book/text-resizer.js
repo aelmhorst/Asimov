@@ -1,8 +1,7 @@
 var asimov= asimov || {};
 asimov.TextResizer = new Class({
+	Extends: asimov.AbstractWidget,
 	INVALID_TAGS: ['AUDIO', 'VIDEO', 'IMG', 'BR', 'HR'],
-	Implements:[Options],
-	
 	options: {
 		target: null,
 		defaultSize: 12,
@@ -15,8 +14,7 @@ asimov.TextResizer = new Class({
 	},
 	originalSize: undefined,
 	initialize: function(ele, options){
-		this.el = ele;
-		this.setOptions(options);
+		this.parent("text-resizer", ele, options);
 		
 		this.target = document.body;
 		if(this.options.target) {

@@ -1,6 +1,6 @@
 var asimov= asimov || {};
 asimov.ScrollingSidebar = new Class({
-	Implements:[Options],
+	Extends: asimov.AbstractWidget,
 	options: {
 		header: null,
 		footer: null,
@@ -10,10 +10,9 @@ asimov.ScrollingSidebar = new Class({
 	
 	//"new md.widgets.ShareWidget($('51240a0c0e50b'), 'http://www.metrodigi.com', { services: ["facebook","google","twitter"] })"
 	initialize: function(ele, options){
+		this.parent("scrolling-sidebar", ele, options);
 		ele.empty();
-		this.setOptions(options);
-		this.el = ele;
-
+		
 		var clsAppend = (this.options.header?'sb-header':'') + (this.options.footer?' sb-footer':'')
 		this.tbl = new Element('table', {
 			cellpadding:0, 
@@ -54,8 +53,5 @@ asimov.ScrollingSidebar = new Class({
 		}
 		td.adopt(div);
 		return tr;
-	},
-	toElement: function(){
-		return this.el;
 	}
 });

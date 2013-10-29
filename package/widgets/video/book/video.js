@@ -1,10 +1,11 @@
 var asimov= asimov || {};
 asimov.Video = new Class({
-	Implements:[Options],
+	Extends: asimov.AbstractWidget,
 	
 	options: {
 		autoPlay: true,
 		controlsVisible: true,
+		loop: false,
 		width: '400px',
 		height: '250px',
 		posterImageUrl: null,
@@ -17,8 +18,9 @@ asimov.Video = new Class({
 		if(!url) {
 			throw("URL(s) needs to be specified.")
 		}
+		
+		this.parent("video", containerEl, options);
 		this.url = url;
-		this.setOptions(options);
 		this._buildDOM(containerEl);
 	},
 	_buildDOM: function(containerEl){
@@ -35,17 +37,20 @@ asimov.Video = new Class({
 		if(this.options.altText) {
 			videoOptions.alt = this.options.altText;
 		}
+		if(this.options.posterImageUrl) {
+			videoOptions.poster = this.options.posterImageUrl;
+		}
 		videoOptions.styles = {
 			"width": this.options.width,
 			"height": this.options.height
 		};
-		this.el = new Element('video', videoOptions);
+		var videoEl = new Element('video', videoOptions);
 
 		var sources = typeOf(this.url)=='array'?this.url:[this.url];
 		sources.each(function(source){
-			this.el.adopt(new Element('source', {src: source}));
+			videoEl.adopt(new Element('source', {src: source}));
 		}.bind(this));
 
-		containerEl.adopt(this.el);
+		containerEl.adopt(videoEl);
 	}
 });

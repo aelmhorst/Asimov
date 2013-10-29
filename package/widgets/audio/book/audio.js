@@ -1,11 +1,12 @@
 var asimov= asimov || {};
 asimov.Audio = new Class({
-	Implements:[Options],
+	Extends: asimov.AbstractWidget,
 	
 	options: {
 		autoPlay: true,
 		controlsVisible: true,
-		width: '250px'
+		width: '250px',
+		loop: false
 	},
 	initialize: function(containerEl, url, options){
 		if(!containerEl) {
@@ -14,8 +15,9 @@ asimov.Audio = new Class({
 		if(!url) {
 			throw("URL(s) needs to be specified.")
 		}
+
+		this.parent("audio", containerEl, options);
 		this.url = url;
-		this.setOptions(options);
 		this._buildDOM(containerEl);
 	},
 	_buildDOM: function(containerEl){
@@ -30,13 +32,13 @@ asimov.Audio = new Class({
 			audioOptions.loop = true;
 		}
 		audioOptions.styles = {"width": this.options.width};
-		this.el = new Element('audio', audioOptions);
+		var audioEl = new Element('audio', audioOptions);
 
 		var sources = typeOf(this.url)=='array'?this.url:[this.url];
 		sources.each(function(source){
-			this.el.adopt(new Element('source', {src: source}));
+			audioEl.adopt(new Element('source', {src: source}));
 		}.bind(this));
 
-		containerEl.adopt(this.el);
+		containerEl.adopt(audioEl);
 	}
 });

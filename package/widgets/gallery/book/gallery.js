@@ -342,7 +342,7 @@ Gallery.defineTransitions({
 
 var asimov = asimov || {};
 asimov.Gallery = new Class({
-	Implements: [Options, Events],
+	Extends: asimov.AbstractWidget,
 	//DEFAULT OPTIONS
 	options: {
 		images:null,
@@ -351,12 +351,7 @@ asimov.Gallery = new Class({
 		clickToNext: false
 	},
 	initialize:function(el, slideShowInfo, sliderInfo, options){
-		if(typeOf(el) == 'string') {
-			this.el = $(el);
-		} else {
-			this.el = el;
-		}
-		this.setOptions(options);
+		this.parent("gallery", $(el), options);
 
 		if(this.options.images) {
 			var mainImageOuter = new Element('div', {'class': 'main-image-outer'});
