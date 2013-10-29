@@ -17,7 +17,7 @@ http://www.metrodigi.com
 			jsString: "new asimov.Audio($('sample'), 'http://www.tonycuffe.com/mp3/cairnomount.mp3', {});"
 		},
 		'video': {
-			jsString: "new asimov.Video($('sample'), 'http://www.auby.no/files/video_tests/h264_720p_hp_5.1_3mbps_vorbis_styled_and_unstyled_subs_suzumiya.mkv', {posterImageUrl: 'http://placehold.it/350x150', altText:'Sample alt text', autoPlay: false});"
+			jsString: "new asimov.Video($('sample'), 'http://www.auby.no/files/video_tests/h264_720p_hp_5.1_6mbps_ac3_planet.mp4', {posterImageUrl: 'http://placehold.it/350x150', altText:'Sample alt text', autoPlay: false});"
 		},
 		'text-resizer': {
 			jsString: "new asimov.TextResizer($('sample'), {target: $('sample-content')});"
