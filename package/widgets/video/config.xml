@@ -49,7 +49,7 @@ http://www.metrodigi.com
 	</dependencies>
 	
 	<params>
-		<param key="accessRights">
+		<param key="compatibility">
             <access booktype='Refloable'>true</access>
             <access booktype='FixedLayout'>true</access>
         </param>

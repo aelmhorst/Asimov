@@ -28,7 +28,7 @@ http://www.metrodigi.com
 		<dependency resource="book">common.js</dependency> 
 	</dependencies>
 	<params>
-		<param key="accessRights">
+		<param key="compatibility">
             <access booktype='Refloable'>true</access>
             <access booktype='FixedLayout'>true</access>
         </param>
