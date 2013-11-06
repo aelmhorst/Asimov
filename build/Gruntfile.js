@@ -48,7 +48,7 @@ grunt.initConfig({
     compress: {
         build: {
             options: {
-                archive: 'dist/asimov-'+widgetName+'.zip',
+                archive: 'dist/epubWidget-'+widgetName+'.zip',
                 mode: 'zip'
             },
             expand: true,

@@ -1,9 +1,8 @@
 /*
 
-Asimov Widget Framework for Books
+IDPF ePub Widget Framework
 MIT License
-http://asimov.chaucercloud.com
-http://www.metrodigi.com
+Demos: http://widgets.chaucercloud.com
 
 */
 var epubWidget= epubWidget || {};

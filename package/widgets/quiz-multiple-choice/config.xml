@@ -1,9 +1,8 @@
 <!--  
 
-Asimov Widget Framework for Books
+IDPF ePub Widget Framework
 MIT License
-http://asimov.chaucercloud.com
-http://www.metrodigi.com
+Demos: http://widgets.chaucercloud.com
 
 -->
 <?xml version="1.0" encoding="utf-8"?>
@@ -28,7 +27,7 @@ http://www.metrodigi.com
 		<dependency resource="book">common.js</dependency>
 	</dependencies>
 	<params>
-		<param key="compatibility">
+		<param key="accessRights">
             <access booktype='Refloable'>true</access>
             <access booktype='FixedLayout'>true</access>
         </param>
