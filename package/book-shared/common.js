@@ -6,14 +6,14 @@ http://asimov.chaucercloud.com
 http://www.metrodigi.com
 
 */
-var asimov = asimov || {};
-asimov.AbstractWidget = new Class({
+var epubWidget = epubWidget || {};
+epubWidget.AbstractWidget = new Class({
 	Implements: [Events, Options],
 	initialize: function(widgetName, el, options){
 		this.name = widgetName;
 		this.el = el;
-		$(this).addClass('asimov-widget');
-		$(this).addClass('asimov-'+widgetName);
+		$(this).addClass('epubWidget-widget');
+		$(this).addClass('epubWidget-'+widgetName);
 		this.setOptions(options);
 	},
 	toElement: function(){
@@ -22,8 +22,8 @@ asimov.AbstractWidget = new Class({
 });
 
 
-asimov.util = asimov.util || {};
-asimov.util.Flash = new Class({
+epubWidget.util = epubWidget.util || {};
+epubWidget.util.Flash = new Class({
 	Implements: [Options, Events],
 	//DEFAULT OPTIONS
 	options: {
@@ -76,8 +76,8 @@ asimov.util.Flash = new Class({
 /*
 Allows storing data into Local or Session storage
 */
-asimov.storage = asimov.storage || {};
-asimov.storage.MemoryStorage = new Class({
+epubWidget.storage = epubWidget.storage || {};
+epubWidget.storage.MemoryStorage = new Class({
 	data: null,
 	initialize: function(){
 		this.data = {};
@@ -90,7 +90,7 @@ asimov.storage.MemoryStorage = new Class({
 	}
 });
 
-asimov.storage.Local = new Class({
+epubWidget.storage.Local = new Class({
 	Implements: [Options, Events],
 	//DEFAULT OPTIONS
 	options: {
@@ -99,7 +99,7 @@ asimov.storage.Local = new Class({
 		storage: null //Either memory, session, local
 	},
 	MAP: {
-		memory: new asimov.storage.MemoryStorage(),
+		memory: new epubWidget.storage.MemoryStorage(),
 		session: window.sessionStorage,
 		local: window.localStorage
 	},

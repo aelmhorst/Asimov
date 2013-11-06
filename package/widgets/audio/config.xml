@@ -18,7 +18,7 @@ http://www.metrodigi.com
     <version>0.1</version>
 
     <!-- Unique ID of the widget, this doesn't change, and has to be unique --> 
-    <id>ASIMOV_AUDIO</id>
+    <id>EPUB_WIDGET_AUDIO</id>
 
     <!-- Lable which should be visible to user for identification --> 
     <label>Audio</label>

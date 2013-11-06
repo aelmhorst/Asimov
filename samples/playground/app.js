@@ -15,32 +15,32 @@ http://www.metrodigi.com
 	
 	var MODEL = {
 		'audio': {
-			jsString: "new asimov.Audio($('sample'), 'http://www.tonycuffe.com/mp3/cairnomount.mp3', {});"
+			jsString: "new epubWidget.Audio($('sample'), 'http://www.tonycuffe.com/mp3/cairnomount.mp3', {});"
 		},
 		'video': {
-			jsString: "new asimov.Video($('sample'), 'http://clips.vorwaerts-gmbh.de/VfE_html5.mp4', {posterImageUrl: 'http://placehold.it/350x150', altText:'Sample alt text', autoPlay: false, subtitles: 'sample.vtt'});"
+			jsString: "new epubWidget.Video($('sample'), 'http://clips.vorwaerts-gmbh.de/VfE_html5.mp4', {posterImageUrl: 'http://placehold.it/350x150', altText:'Sample alt text', autoPlay: false, subtitles: 'sample.vtt'});"
 		},
 		'text-resizer': {
-			jsString: "new asimov.TextResizer($('sample'), {target: $('sample-content')});"
+			jsString: "new epubWidget.TextResizer($('sample'), {target: $('sample-content')});"
 		},
 		'gallery': {
-			jsString: 'new asimov.Gallery($("sample"),{options:{"delay":4000,"autoplay":false,"transition":"fade"}},undefined,' +
+			jsString: 'new epubWidget.Gallery($("sample"),{options:{"delay":4000,"autoplay":false,"transition":"fade"}},undefined,' +
 				'{"size":{"height":"450","width":"250"},"images":[' + 
 					'{"id":"89437","src":"http://placehold.it/350x300?v=1369317434333"}, {"id":"89436","src":"http://placehold.it/350x301?v=1369317434332"},' +
 					'{"id":"89436","src":"http://placehold.it/350x302?v=1369317434332"}, {"id":"89436","src":"http://placehold.it/350x303?v=1369317434332"}],' +
 					'"thumbnails":false,"clickToNext":true})'
 		},
 		'scrolling-sidebar': {
-			jsString: "new asimov.ScrollingSidebar($('sample'), {header: 'This is header', footer: 'this is footer', content:randStr(1444), width: 200, height: 400});"
+			jsString: "new epubWidget.ScrollingSidebar($('sample'), {header: 'This is header', footer: 'this is footer', content:randStr(1444), width: 200, height: 400});"
 		},
 		'quiz-multiple-choice': {
-			jsString: 'new asimov.QuizMultipleChoice($("sample"),{"persist":false,"generateHTML":true,"questionData":' +
+			jsString: 'new epubWidget.QuizMultipleChoice($("sample"),{"persist":false,"generateHTML":true,"questionData":' +
 				'{"correctMsg":"Correct! You answered correctly. Good job.","incorrectMsg":"Sorry! This is not the correct answer.","questions":' + 
 				'[{"text":"This is Q2","options":[{"text":"o2","correct":true,"order":1},{"text":"o1","correct":false,"order":2}],"order":1},{"text":"This is new Q1","options":[{"text":"o3","correct":false,"order":1},' + 
 				'{"text":"O1","correct":false,"order":2},{"text":"o2","correct":true,"order":3}],"order":2}]}})'
 		},
 		'popup': {
-			jsString: "new asimov.Popup($('sample'), '<p>Popup with close btn <br/> Lorem ipsum blah blah bla....</p>' ," +
+			jsString: "new epubWidget.Popup($('sample'), '<p>Popup with close btn <br/> Lorem ipsum blah blah bla....</p>' ," +
     			"{'title':'Test title', 'size':{width: 500, height:300}, closeBtn: true});",
 			content: "Click here to open Popup"
 		}

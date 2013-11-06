@@ -6,10 +6,10 @@ http://asimov.chaucercloud.com
 http://www.metrodigi.com
 
 */
-var asimov = asimov || {};
+var epubWidget = epubWidget || {};
 
-asimov.QuizMultipleChoice = new Class({
-	Extends: asimov.AbstractWidget,
+epubWidget.QuizMultipleChoice = new Class({
+	Extends: epubWidget.AbstractWidget,
 	CHAR_MAP: 'abcdefghijklmnopqrstuvwxyz0123456789',
 	//DEFAULT OPTIONS
 	options: {
@@ -44,7 +44,7 @@ asimov.QuizMultipleChoice = new Class({
 			this.generateHTML(this.options.questionData);
 		}
 
-		this.flash = new asimov.util.Flash({position:"center", type:"info", time: this.options.msgTimeout});
+		this.flash = new epubWidget.util.Flash({position:"center", type:"info", time: this.options.msgTimeout});
 		this.stores = {};
 		this.quizSummaries = {};
 		var questions = this.options.container.getElements('['+this.options.qAttr+']');
@@ -155,8 +155,8 @@ asimov.QuizMultipleChoice = new Class({
 		var quizSummary = this.quizSummaries[qSet];
 		if(!store) {
 			var storage = this.options.persist?"local":"memory";
-			store = new asimov.storage.Local(qSet+"-store", { storage: storage });
-			quizSummary = new asimov.QuizSummary(qSet, store, this.options.totalQuestions);
+			store = new epubWidget.storage.Local(qSet+"-store", { storage: storage });
+			quizSummary = new epubWidget.QuizSummary(qSet, store, this.options.totalQuestions);
 			this.stores[qSet] = store;
 			this.quizSummaries[qSet] = quizSummary;
 		}
@@ -284,11 +284,11 @@ asimov.QuizMultipleChoice = new Class({
 	
 });
 
-asimov.QuizSummary = new Class({
+epubWidget.QuizSummary = new Class({
 	initialize: function(qSet, quizStore, totalQuestions){
 		this.quizStore = quizStore;
 		this.totalQuestions = totalQuestions;
-		this.store = new asimov.storage.Local(qSet +"-summary", { session: true });
+		this.store = new epubWidget.storage.Local(qSet +"-summary", { session: true });
 		this.store.save('totalQuestions', this.totalQuestions);
 	},
 	getTotalQCount: function(){

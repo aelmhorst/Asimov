@@ -11,7 +11,7 @@ http://www.metrodigi.com
     <name>Popup</name>
     <author>Metrodigi</author>
     <version>0.1</version>
-    <id>ASIMOV_POPUP</id>
+    <id>EPUB_WIDGET_POPUP</id>
     <label>Popup widget</label>
     <description>Widget for creating Popup</description>
     <dimensions width="620" height="700"/>

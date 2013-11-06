@@ -6,12 +6,12 @@ http://asimov.chaucercloud.com
 http://www.metrodigi.com
 
 */
-.asimov-popup {
+.epubWidget-popup {
   border: 1px dashed #ccc;
   cursor: pointer;
 }
 
-.asimov-popup:hover {
+.epubWidget-popup:hover {
   text-decoration: underline;
 }
 

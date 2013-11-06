@@ -11,7 +11,7 @@ http://www.metrodigi.com
     <name>Resizer</name>
     <author>Metrodigi</author>
     <version>0.1</version>
-    <id>ASIMOV_TEXT_RESIZER</id>
+    <id>EPUB_WIDGET_TEXT_RESIZER</id>
     <label>Text Resizer</label>
     <description>Widget to resize content</description>
     <dimensions width="530" height="100"/>

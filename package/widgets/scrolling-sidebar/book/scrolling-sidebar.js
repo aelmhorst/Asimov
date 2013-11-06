@@ -6,9 +6,9 @@ http://asimov.chaucercloud.com
 http://www.metrodigi.com
 
 */
-var asimov= asimov || {};
-asimov.ScrollingSidebar = new Class({
-	Extends: asimov.AbstractWidget,
+var epubWidget= epubWidget || {};
+epubWidget.ScrollingSidebar = new Class({
+	Extends: epubWidget.AbstractWidget,
 	options: {
 		header: null,
 		footer: null,

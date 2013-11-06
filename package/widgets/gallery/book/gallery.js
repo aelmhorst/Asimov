@@ -341,9 +341,9 @@ Gallery.defineTransitions({
 })();
 
 
-var asimov = asimov || {};
-asimov.Gallery = new Class({
-	Extends: asimov.AbstractWidget,
+var epubWidget = epubWidget || {};
+epubWidget.Gallery = new Class({
+	Extends: epubWidget.AbstractWidget,
 	//DEFAULT OPTIONS
 	options: {
 		images:null,

@@ -6,9 +6,9 @@ http://asimov.chaucercloud.com
 http://www.metrodigi.com
 
 */
-var asimov= asimov || {};
-asimov.Video = new Class({
-	Extends: asimov.AbstractWidget,
+var epubWidget= epubWidget || {};
+epubWidget.Video = new Class({
+	Extends: epubWidget.AbstractWidget,
 	
 	options: {
 		autoPlay: true,

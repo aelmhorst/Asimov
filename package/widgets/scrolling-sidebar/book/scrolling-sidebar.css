@@ -7,29 +7,29 @@ http://www.metrodigi.com
 
 */
 
-.asimov-scrolling-sidebar table.sidebar-widget{
+.epubWidget-scrolling-sidebar table.sidebar-widget{
 	border-radius:5px;-webkit-border-radius:5px;border:none;
 	height: 100%;
 }
-.asimov-scrolling-sidebar table.sidebar-widget td{vertical-align:top;padding:0;border:none;}
-.asimov-scrolling-sidebar table.sidebar-widget td.sidebar-content{height:100%;}
+.epubWidget-scrolling-sidebar table.sidebar-widget td{vertical-align:top;padding:0;border:none;}
+.epubWidget-scrolling-sidebar table.sidebar-widget td.sidebar-content{height:100%;}
 /*NOTE: .sb-inner padding and border values are used in JS. Please compare with JS.*/
-.asimov-scrolling-sidebar .sb-inner{word-wrap: break-word; padding:10px;height:100%;border:#d5d5d5 solid 1px;border-radius:5px;-webkit-border-radius:5px;background:#fff;}
-.asimov-scrolling-sidebar .sidebar-content .sb-inner{overflow:auto;}
-.asimov-scrolling-sidebar .sidebar-content .p{text-indent:0;color:black;}
-.asimov-scrolling-sidebar .sb-header .sidebar-header .sb-inner{
+.epubWidget-scrolling-sidebar .sb-inner{word-wrap: break-word; padding:10px;height:100%;border:#d5d5d5 solid 1px;border-radius:5px;-webkit-border-radius:5px;background:#fff;}
+.epubWidget-scrolling-sidebar .sidebar-content .sb-inner{overflow:auto;}
+.epubWidget-scrolling-sidebar .sidebar-content .p{text-indent:0;color:black;}
+.epubWidget-scrolling-sidebar .sb-header .sidebar-header .sb-inner{
 	border-bottom:none;border-bottom-right-radius: 0;border-bottom-left-radius: 0;
 	-webkit-margin-after: 0px;
 	-webkit-margin-before: 0px;
 }
-.asimov-scrolling-sidebar .sb-header .sidebar-content .sb-inner{border-top-right-radius: 0;border-top-left-radius: 0;}
-.asimov-scrolling-sidebar .sb-footer .sidebar-footer .sb-inner{
+.epubWidget-scrolling-sidebar .sb-header .sidebar-content .sb-inner{border-top-right-radius: 0;border-top-left-radius: 0;}
+.epubWidget-scrolling-sidebar .sb-footer .sidebar-footer .sb-inner{
 	border-top:none;border-top-right-radius: 0;border-top-left-radius: 0;
 	display: block;
 }
-.asimov-scrolling-sidebar .sb-footer .sidebar-content .sb-inner{border-bottom-right-radius: 0;border-bottom-left-radius: 0;}
+.epubWidget-scrolling-sidebar .sb-footer .sidebar-content .sb-inner{border-bottom-right-radius: 0;border-bottom-left-radius: 0;}
 
-.asimov-scrolling-sidebar .sb-gradient{
+.epubWidget-scrolling-sidebar .sb-gradient{
   	background: #f8f8f8; /* Old browsers */
 	background: -moz-linear-gradient(top,  #f8f8f8 0%, #efefef 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#efefef)); /* Chrome,Safari4+ */

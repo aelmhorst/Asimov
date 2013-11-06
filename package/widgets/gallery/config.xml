@@ -12,7 +12,7 @@ http://www.metrodigi.com
     <author>Metrodigi</author>
     <version>0.1</version>
     <label>Gallery</label>
-    <id>ASIMOV_GALLERY</id>
+    <id>EPUB_WIDGET_GALLERY</id>
     <description>gallery widget</description>
     <dimensions width="950" height="690"/>    
     <files>
