@@ -12,7 +12,8 @@ asimov.Popup = new Class({
     options: {
         closeBtn: false,
         closeBtnText: 'Close',
-        position: 'fixed', //CAN be relative, so shows where clicked
+        //allowed options are 'relative','fixed'
+        position: 'fixed', 
         alignment: 'topLeft'
     },
 

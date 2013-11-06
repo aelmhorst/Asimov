@@ -15,12 +15,10 @@ http://www.metrodigi.com
 	height:100%;
 	overflow:hidden;
 	position:relative;
-	/*-webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.5);*/
 	text-align:center;
 	background:#ffffff;
-    	margin-top: 20px;
-    	border: #d5d5d5 solid 1px;
-	/*border-bottom: none;*/
+	margin-top: 20px;
+	border: #d5d5d5 solid 1px;
 }
 .asimov-gallery .main-image-inner{
 	height:100%;
@@ -49,7 +47,7 @@ http://www.metrodigi.com
 }
 
 .asimov-gallery .thumb-wrapper-outer{
-	height:80px; /*90px total*/
+	height:80px;
 	overflow-x:auto;
 	overflow-y:hidden;
 	border:#ccc solid 1px;
@@ -58,7 +56,6 @@ http://www.metrodigi.com
 	border-radius:0 0 4px 4px;
 	padding:5px;
 	position:relative;
-	/*-webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.5);*/
 }
 .asimov-gallery .thumb-wrapper-inner {white-space:nowrap;height:80px;}
 .asimov-gallery .thumb-wrapper-inner img{

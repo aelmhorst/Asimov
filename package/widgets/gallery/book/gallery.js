@@ -55,13 +55,6 @@ var Gallery = this.Gallery = new Class({
 	Implements: [Options, Events, Loop],
 
 	options: {
-		/*
-		onShow: function(){},
-		onShowComplete: function(){},
-		onReverse: function(){},
-		onPlay: function(){},
-		onPause: function(){},
-		*/
 		delay: 7000,
 		transition: 'crossFade',
 		duration: 500,
@@ -400,12 +393,6 @@ asimov.Gallery = new Class({
 		
 
 		this.gallery = new Gallery(slideShowInfo.el, slideShowInfo.options);
-		//FIXME: Gallery shows wrong image sometimes.
-		this.gallery.addEvent('showComplete', function(){
-			// if(this.gallery.index != this.current) {
-			// 	this.gallery.show(this.current);
-			// }
-		}.bind(this));
 
 		if(this.options.clickToNext) {
 			this.el.addEvent('click', function(e){

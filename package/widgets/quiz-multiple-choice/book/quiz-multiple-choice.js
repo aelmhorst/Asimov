@@ -73,7 +73,6 @@ asimov.QuizMultipleChoice = new Class({
 			setTimeout(function(){msgEl.destroy()}, this.options.msgTimeout);
 		} else {
 			if(isSuccess) {
-				//flash.success(msg, 10);
 				this.flash.show(msg);
 			} else {
 				this.flash.show(msg, 'error');
@@ -134,8 +133,6 @@ asimov.QuizMultipleChoice = new Class({
 		});
 		//Put Quiz in EL
 		this.el.adopt(quizWrapperEl);
-		//this.options.correctMsg = questionData.correctMsg;
-		//this.options.incorrectMsg = questionData.incorrectMsg;
 		this.options.container = this.el;
 	},
 	isAnswered: function(store, qId){
@@ -167,7 +164,7 @@ asimov.QuizMultipleChoice = new Class({
 		if(!this.isAnswered(store, qId)) {
 			optionEl.addEvent('click', function(e){
 				e.preventDefault();
-				//IF ALREADY ANSWERED
+				//If it is already answered
 				if(this.isAnswered(store, qId)) { return; }
 				var isCorrect = optionEl.hasAttribute('data-answer');
 				if(isMultiAnswer) {
@@ -249,12 +246,7 @@ asimov.QuizMultipleChoice = new Class({
 		}
 		
 		if(questionEl.hasAttribute(attr)) {
-			//if(answer.correct) {
-				this.showMessage(answer.correct, questionEl, questionEl.getAttribute(attr));
-				//this.flash.show(questionEl.getAttribute(attr));
-			//} else {
-				//this.flash.show(questionEl.getAttribute(attr), "error");
-			//}
+			this.showMessage(answer.correct, questionEl, questionEl.getAttribute(attr));
 		} else {
 			var msg = null;
 			if(answer.correct) {
