@@ -18,7 +18,7 @@ http://www.metrodigi.com
 			jsString: "new epubWidget.Audio($('sample'), 'http://www.tonycuffe.com/mp3/cairnomount.mp3', {});"
 		},
 		'video': {
-			jsString: "new epubWidget.Video($('sample'), 'http://clips.vorwaerts-gmbh.de/VfE_html5.mp4', {posterImageUrl: 'http://placehold.it/350x150', altText:'Sample alt text', autoPlay: false, subtitles: 'sample.vtt'});"
+			jsString: "new epubWidget.Video($('sample'), 'http://clips.vorwaerts-gmbh.de/VfE_html5.mp4', {posterImageUrl: 'http://placehold.it/350x150', altText:'Sample alt text', autoPlay: false, subtitles: '../shared/sample.vtt'});"
 		},
 		'text-resizer': {
 			jsString: "new epubWidget.TextResizer($('sample'), {target: $('sample-content')});"
