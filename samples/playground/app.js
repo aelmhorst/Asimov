@@ -6,6 +6,7 @@ http://asimov.chaucercloud.com
 http://www.metrodigi.com
 
 */
+
 (function(){
 	window.randStr = function(len){
 		return (function(){g=function(){c='0123 4567 89ab cde fghi jklmn opqrstuvwxy zAB CDEFG HIJKLM NOPQR STUVWXYZ';p='';for(i=0;i<len;i++){p+=c.charAt(Math.floor(Math.random()*62));}return p;};p=g();while(!/[A-Z]/.test(p)||!/[0-9]/.test(p)||!/[a-z]/.test(p)){p=g();}return p;})()
@@ -17,7 +18,7 @@ http://www.metrodigi.com
 			jsString: "new asimov.Audio($('sample'), 'http://www.tonycuffe.com/mp3/cairnomount.mp3', {});"
 		},
 		'video': {
-			jsString: "new asimov.Video($('sample'), 'http://www.auby.no/files/video_tests/h264_720p_hp_5.1_6mbps_ac3_planet.mp4', {posterImageUrl: 'http://placehold.it/350x150', altText:'Sample alt text', autoPlay: false});"
+			jsString: "new asimov.Video($('sample'), 'http://clips.vorwaerts-gmbh.de/VfE_html5.mp4', {posterImageUrl: 'http://placehold.it/350x150', altText:'Sample alt text', autoPlay: false, subtitles: 'sample.vtt'});"
 		},
 		'text-resizer': {
 			jsString: "new asimov.TextResizer($('sample'), {target: $('sample-content')});"
@@ -88,17 +89,19 @@ http://www.metrodigi.com
 			},
 			render: function(){
 				this.el.empty();
-				var widgetListEl = new Element('ul');
 				Object.keys(this.model).each(function(widgetName){
-					widgetListEl.adopt(this.createEntry(widgetName));
+					this.el.adopt(this.createEntry(widgetName));
 				}.bind(this));
-				this.el.adopt(widgetListEl);
-				this.el.getElements('li').addEvent("click", function(e){
+
+				var entries = this.el.getElements('.widget-entry');
+				entries.addEvent("click", function(e){
+					entries.removeClass("active");
+					e.target.addClass("active");
 					this.fireEvent('widgetSelected', e.target.get('html'));
 				}.bind(this))
 			},
 			createEntry: function(widgetName){
-				var entryEl = new Element('li', {html: widgetName, 'class': 'widget-entry'});
+				var entryEl = new Element('a', {html: widgetName, 'class': 'widget-entry list-group-item'});
 				return entryEl;
 			}
 		});
