@@ -13,13 +13,13 @@ Demos: http://widgets.chaucercloud.com
 	<!-- Help page for authoring tools to load Help -->
 	<help url="http://widgets.chaucercloud.com/help/audio">Get help for this widget at www.chaucercloud.com</help>
 
-	<!-- Author of the widget and URL specifies Author's webpage -->
+	<!-- Author of the widget and URL specifies Author"s webpage -->
 	<author url="http://widgets.chaucercloud.com/about">Metrodigi</author>
 
 	<!-- version of the widget -->
 	<version>0.1</version>
 
-	<!-- Unique ID of the widget, this doesn't change, and has to be unique --> 
+	<!-- Unique ID of the widget, this doesn"t change, and has to be unique --> 
 	<id>EPUB_WIDGET_AUDIO</id>
 
 	<!-- Lable which should be visible to user for identification --> 
@@ -31,9 +31,9 @@ Demos: http://widgets.chaucercloud.com
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
 
 	<!-- List of files which are used for widget in either Editor or book.
-	  -- resource attribute value can be either 'editor' or 'book'
-	  -- 'editor' specifies that file will be used / loaded in Editor.
-	  -- 'book' specifies that file will be used / loaded in Book, so it should be exported to book.
+	  -- resource attribute value can be either "editor" or "book"
+	  -- "editor" specifies that file will be used / loaded in Editor.
+	  -- "book" specifies that file will be used / loaded in Book, so it should be exported to book.
 	-->
 	<files>
 		<filename resource="book" init-script="true">audio.js</filename>
@@ -48,8 +48,8 @@ Demos: http://widgets.chaucercloud.com
 	
 	<params>
 		<param key="compatibility">
-            <access booktype='Refloable'>true</access>
-            <access booktype='FixedLayout'>true</access>
+            <access booktype="Refloable">true</access>
+            <access booktype="FixedLayout">true</access>
         </param>
         <param key="editor">
         	<!-- Dimension of the widget Editor, not widget.--> 

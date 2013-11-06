@@ -16,8 +16,8 @@ Demos: http://widgets.chaucercloud.com
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
 	<dimensions width="620" height="700"/>
 	<files>
-		<filename resource='book' import='true' init-script="true">quiz-multiple-choice.js</filename>
-		<filename resource='book' import='true'>quiz-multiple-choice.css</filename>
+		<filename resource="book" import="true" init-script="true">quiz-multiple-choice.js</filename>
+		<filename resource="book" import="true">quiz-multiple-choice.css</filename>
 
 		<filename resource="book" type="shared">external/mootools-core-1.4.5-full-nocompat-yc.js</filename>
 		<filename resource="book" type="shared">external/mootools-more-1.4.0.1-yc.js</filename>
@@ -26,9 +26,9 @@ Demos: http://widgets.chaucercloud.com
 	</files>
 
 	<params>
-		<param key="accessRights">
-            <access booktype='Refloable'>true</access>
-            <access booktype='FixedLayout'>true</access>
+		<param key="compatibility">
+            <access booktype="Refloable">true</access>
+            <access booktype="FixedLayout">true</access>
         </param>
 	</params>
 </widget>

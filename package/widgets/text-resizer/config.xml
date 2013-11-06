@@ -16,20 +16,20 @@ Demos: http://widgets.chaucercloud.com
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
 	
 	<files>
-		<filename resource='book' import='true' init-script="true">text-resizer.js</filename>
-		<filename resource='book' import='true'>text-resizer.css</filename>
-		<filename resource="book" import='true'>images/reset.png</filename>
-		<filename resource="book" import='true'>images/zoom-in.png</filename>
-		<filename resource="book" import='true'>images/zoom-out.png</filename>
-		<filename resource="book" import='true'>images/reset-modern.png</filename>
-		<filename resource="book" import='true'>images/zoom-in-modern.png</filename>
-		<filename resource="book" import='true'>images/zoom-out-modern.png</filename>
-		<filename resource="book" import='true'>images/reset-classic.png</filename>
-		<filename resource="book" import='true'>images/zoom-in-classic.png</filename>
-		<filename resource="book" import='true'>images/zoom-out-classic.png</filename>
-		<filename resource="book" import='true'>images/reset-playful.png</filename>
-		<filename resource="book" import='true'>images/zoom-in-playful.png</filename>
-		<filename resource="book" import='true'>images/zoom-out-playful.png</filename>
+		<filename resource="book" import="true" init-script="true">text-resizer.js</filename>
+		<filename resource="book" import="true">text-resizer.css</filename>
+		<filename resource="book" import="true">images/reset.png</filename>
+		<filename resource="book" import="true">images/zoom-in.png</filename>
+		<filename resource="book" import="true">images/zoom-out.png</filename>
+		<filename resource="book" import="true">images/reset-modern.png</filename>
+		<filename resource="book" import="true">images/zoom-in-modern.png</filename>
+		<filename resource="book" import="true">images/zoom-out-modern.png</filename>
+		<filename resource="book" import="true">images/reset-classic.png</filename>
+		<filename resource="book" import="true">images/zoom-in-classic.png</filename>
+		<filename resource="book" import="true">images/zoom-out-classic.png</filename>
+		<filename resource="book" import="true">images/reset-playful.png</filename>
+		<filename resource="book" import="true">images/zoom-in-playful.png</filename>
+		<filename resource="book" import="true">images/zoom-out-playful.png</filename>
 
 		<filename resource="book" type="shared">external/mootools-core-1.4.5-full-nocompat-yc.js</filename>
 		<filename resource="book" type="shared">external/mootools-more-1.4.0.1-yc.js</filename>
@@ -40,8 +40,8 @@ Demos: http://widgets.chaucercloud.com
 	<params>
 		<param key="noconfig">true</param>
 		<param key="compatibility">
-            <access booktype='Refloable'>true</access>
-            <access booktype='FixedLayout'>true</access>
+            <access booktype="Refloable">true</access>
+            <access booktype="FixedLayout">true</access>
         </param>
         <param key="editor">
     		<dimensions width="530" height="100"/>
