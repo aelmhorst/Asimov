@@ -11,7 +11,7 @@ epubWidget.Audio = new Class({
 	Extends: epubWidget.AbstractWidget,
 	
 	options: {
-		autoPlay: true,
+		autoPlay: false,
 		controlsVisible: true,
 		width: '250px',
 		loop: false
