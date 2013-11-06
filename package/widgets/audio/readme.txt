@@ -1,1 +1,1 @@
-Audio Read Me
+Easily add audio to your books.

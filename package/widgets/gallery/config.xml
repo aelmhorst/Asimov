@@ -14,7 +14,8 @@ http://www.metrodigi.com
 	<label>Gallery</label>
 	<id>EPUB_WIDGET_GALLERY</id>
 	<description>gallery widget</description>
-	<dimensions width="950" height="690"/>    
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
+	<dimensions width="950" height="690"/>
 	<files>
 		<filename resource='book' import='true' init-script='true'>gallery.js</filename>
 		<filename resource='book' import='true'>gallery.css</filename>
@@ -27,5 +28,9 @@ http://www.metrodigi.com
 		<dependency resource="book">common.js</dependency>
 	</dependencies>
 	<params>
+		<param key="accessRights">
+            <access booktype='Refloable'>true</access>
+            <access booktype='FixedLayout'>true</access>
+        </param>
 	</params>
 </widget>

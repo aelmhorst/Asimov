@@ -1,1 +1,1 @@
-Video Read Me
+Easily add video to your books.

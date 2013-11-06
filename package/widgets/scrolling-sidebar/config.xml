@@ -14,6 +14,7 @@ http://www.metrodigi.com
 	<id>EPUB_WIDGET_SIDEBAR</id>
 	<label>Scrolling Sidebar</label>
 	<description>Widget to add Sidebar</description>
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
 	<dimensions width="740" height="660"/>
 	<files>
 		<filename resource='book' import='true' init-script="true">scrolling-sidebar.js</filename>
@@ -27,5 +28,9 @@ http://www.metrodigi.com
 		<dependency resource="book">common.js</dependency>
 	</dependencies>
 	<params>
+		<param key="accessRights">
+            <access booktype='Refloable'>true</access>
+            <access booktype='FixedLayout'>true</access>
+        </param>
 	</params>
 </widget>

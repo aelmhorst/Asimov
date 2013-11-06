@@ -26,6 +26,7 @@ http://www.metrodigi.com
 	<!-- Description of the widget  --> 
 	<description>Add Video to the Book</description>
 
+	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
 	<!-- Dimension of the widget Editor, not widget.--> 
 	<dimensions width="530" height="260"/>
 
@@ -48,5 +49,9 @@ http://www.metrodigi.com
 	</dependencies>
 	
 	<params>
+		<param key="accessRights">
+            <access booktype='Refloable'>true</access>
+            <access booktype='FixedLayout'>true</access>
+        </param>
 	</params>
 </widget>

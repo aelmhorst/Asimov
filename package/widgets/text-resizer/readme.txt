@@ -1,1 +1,1 @@
-Text Resizer Read Me
+Add custom resizing options with this text resizer.

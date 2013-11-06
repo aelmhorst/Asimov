@@ -1,1 +1,1 @@
-Multiple Choice Quiz Read Me
+Create multiple choice or true/false quizzes easily.
