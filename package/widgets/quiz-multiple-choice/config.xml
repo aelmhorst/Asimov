@@ -18,14 +18,13 @@ Demos: http://widgets.chaucercloud.com
 	<files>
 		<filename resource='book' import='true' init-script="true">quiz-multiple-choice.js</filename>
 		<filename resource='book' import='true'>quiz-multiple-choice.css</filename>
+
+		<filename resource="book" type="shared">external/mootools-core-1.4.5-full-nocompat-yc.js</filename>
+		<filename resource="book" type="shared">external/mootools-more-1.4.0.1-yc.js</filename>
+		<filename resource="book" type="shared">mootools-drag-touch.js</filename>
+		<filename resource="book" type="shared">common.js</filename>
 	</files>
-	<!-- Depedencies for this widget, resource=”book” defines that it is for book only. It is ordered -->
-	<dependencies>
-		<dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
-		<dependency resource="book">external/mootools-more-1.4.0.1-yc.js</dependency>
-		<dependency resource="book">mootools-drag-touch.js</dependency>
-		<dependency resource="book">common.js</dependency>
-	</dependencies>
+
 	<params>
 		<param key="accessRights">
             <access booktype='Refloable'>true</access>

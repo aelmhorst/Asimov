@@ -14,22 +14,24 @@ Demos: http://widgets.chaucercloud.com
 	<label>Popup widget</label>
 	<description>Widget for creating Popup</description>
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
-	<dimensions width="620" height="700"/>
+	
 	<files>
 		<filename resource='book' import='true' init-script="true">popup.js</filename>
 		<filename resource='book' import='true'>popup.css</filename>
+
+		<filename resource="book" type="shared">external/mootools-core-1.4.5-full-nocompat-yc.js</filename>
+		<filename resource="book" type="shared">external/mootools-more-1.4.0.1-yc.js</filename>
+		<filename resource="book" type="shared">mootools-drag-touch.js</filename>
+		<filename resource="book" type="shared">common.js</filename> 
 	</files>
-	<!-- Depedencies for this widget, resource=”book” defines that it is for book only. It is ordered -->
-	<dependencies>
-		<dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
-		<dependency resource="book">external/mootools-more-1.4.0.1-yc.js</dependency>
-		<dependency resource="book">mootools-drag-touch.js</dependency>
-		<dependency resource="book">common.js</dependency> 
-	</dependencies>
 	<params>
 		<param key="compatibility">
             <access booktype='Refloable'>true</access>
             <access booktype='FixedLayout'>true</access>
+        </param>
+
+        <param key="editor">
+    		<dimensions width="620" height="700"/>
         </param>
 	</params>
 </widget>

@@ -14,7 +14,7 @@ Demos: http://widgets.chaucercloud.com
 	<label>Scrolling Sidebar</label>
 	<description>Widget to add Sidebar</description>
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
-	<dimensions width="740" height="660"/>
+	
 	<files>
 		<filename resource='book' import='true' init-script="true">scrolling-sidebar.js</filename>
 		<filename resource='book' import='true'>scrolling-sidebar.css</filename>
@@ -30,6 +30,10 @@ Demos: http://widgets.chaucercloud.com
 		<param key="compatibility">
             <access booktype='Refloable'>true</access>
             <access booktype='FixedLayout'>true</access>
+        </param>
+
+        <param key="editor">
+    		<dimensions width="740" height="660"/>
         </param>
 	</params>
 </widget>

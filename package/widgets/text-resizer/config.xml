@@ -14,7 +14,7 @@ Demos: http://widgets.chaucercloud.com
 	<label>Text Resizer</label>
 	<description>Widget to resize content</description>
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
-	<dimensions width="530" height="100"/>
+	
 	<files>
 		<filename resource='book' import='true' init-script="true">text-resizer.js</filename>
 		<filename resource='book' import='true'>text-resizer.css</filename>
@@ -30,19 +30,21 @@ Demos: http://widgets.chaucercloud.com
 		<filename resource="book" import='true'>images/reset-playful.png</filename>
 		<filename resource="book" import='true'>images/zoom-in-playful.png</filename>
 		<filename resource="book" import='true'>images/zoom-out-playful.png</filename>
+
+		<filename resource="book" type="shared">external/mootools-core-1.4.5-full-nocompat-yc.js</filename>
+		<filename resource="book" type="shared">external/mootools-more-1.4.0.1-yc.js</filename>
+		<filename resource="book" type="shared">mootools-drag-touch.js</filename>
+		<filename resource="book" type="shared">common.js</filename>
 	</files>
-	<!-- Depedencies for this widget, resource=”book” defines that it is for book only. It is ordered -->
-	<dependencies>
-		<dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
-		<dependency resource="book">external/mootools-more-1.4.0.1-yc.js</dependency>
-		<dependency resource="book">mootools-drag-touch.js</dependency>
-		<dependency resource="book">common.js</dependency>
-	</dependencies>
+	
 	<params>
 		<param key="noconfig">true</param>
 		<param key="compatibility">
             <access booktype='Refloable'>true</access>
             <access booktype='FixedLayout'>true</access>
+        </param>
+        <param key="editor">
+    		<dimensions width="530" height="100"/>
         </param>
 	</params>
 </widget>
