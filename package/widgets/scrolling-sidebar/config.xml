@@ -10,7 +10,7 @@ http://www.metrodigi.com
 <widget>
     <name>Sidebar</name>
     <author>Metrodigi</author>
-    <version>1.0</version>
+    <version>0.1</version>
     <id>ASIMOV_SIDEBAR</id>
     <label>Scrolling Sidebar</label>
     <description>Widget to add Sidebar</description>

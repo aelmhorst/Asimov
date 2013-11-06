@@ -10,7 +10,7 @@ http://www.metrodigi.com
 <widget>
     <name>Gallery</name>
     <author>Metrodigi</author>
-    <version>1.0</version>
+    <version>0.1</version>
     <label>Gallery</label>
     <id>ASIMOV_GALLERY</id>
     <description>gallery widget</description>
