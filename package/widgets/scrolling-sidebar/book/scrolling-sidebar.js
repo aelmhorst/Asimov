@@ -22,12 +22,10 @@ epubWidget.ScrollingSidebar = new Class({
 		ele.empty();
 		
 		var clsAppend = (this.options.header?'sb-header':'') + (this.options.footer?' sb-footer':'')
-		this.tbl = new Element('table', {
-			cellpadding:0, 
-			cellspacing:0,
+		var tbody = new Element('div', {
 			'class':'sidebar-widget ' + clsAppend
 		});
-		var tbody = new Element('tbody').inject(this.tbl);
+		//var tbody = new Element('tbody').inject(this.tbl);
 		
 		//add header
 		if(this.options.header && this.options.header.length>0) {
@@ -43,23 +41,20 @@ epubWidget.ScrollingSidebar = new Class({
 		}
 
 		// Set the height of the container
-		this.el.style.height = this.options.height + 'px';
-		
-		this.el.adopt(this.tbl);
+		this.el.setStyles({
+			'height': this.options.height + 'px',
+			'width': this.options.width + 'px'
+		});
+		this.el.adopt(tbody);
 	},
 	addTr: function(data, type, cls, innerElementType){
 		innerElementType = innerElementType || 'div';
-		var tr = new Element('tr');
-		var td = new Element('td', {'class': 'sidebar-'+type}).inject(tr);
+		var td = new Element('div', {'class': 'sidebar-'+type});
 		var div = new Element(innerElementType, {
 			'class': 'sb-inner ' + cls,
 			'html': data
 		});
-		if(this.options.width) {
-			//NOTE: 22 is for PADDING, should be changed to proper value with CSS.
-			div.setStyle('width', (this.options.width-22) + 'px');
-		}
 		td.adopt(div);
-		return tr;
+		return td;
 	}
 });
