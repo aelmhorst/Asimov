@@ -13,8 +13,8 @@ http://www.metrodigi.com
 
 .epubWidget-quiz-multiple-choice .question-text{
 	font-size:1.2em;line-height:1.8em;font-weight:bold;cursor:default;
-  	-webkit-margin-before: 0;
-  	-webkit-margin-after: 0;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
 }
 
 .epubWidget-quiz-multiple-choice .options-wrapper{}

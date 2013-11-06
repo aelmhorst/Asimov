@@ -11,10 +11,10 @@ http://www.metrodigi.com
  * --------------------------------------------------
  */
 html {
-  overflow-x: hidden; /* Prevent scroll on narrow devices */
+	overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
 body {
-  padding-top: 50px;
+	padding-top: 50px;
 }
 .navbar {
 	min-height: 30px;
@@ -28,67 +28,37 @@ body {
  * --------------------------------------------------
  */
 @media screen and (max-width: 767px) {
-  .row-offcanvas {
-    position: relative;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-  }
+	.row-offcanvas {
+		position: relative;
+		-webkit-transition: all 0.25s ease-out;
+		-moz-transition: all 0.25s ease-out;
+		transition: all 0.25s ease-out;
+	}
 
-  .row-offcanvas-right
-  .sidebar-offcanvas {
-    right: -50%; /* 6 columns */
-  }
+	.row-offcanvas-right
+	.sidebar-offcanvas {
+		right: -50%; /* 6 columns */
+	}
 
-  .row-offcanvas-left
-  .sidebar-offcanvas {
-    left: -50%; /* 6 columns */
-  }
+	.row-offcanvas-left
+	.sidebar-offcanvas {
+		left: -50%; /* 6 columns */
+	}
 
-  .row-offcanvas-right.active {
-    right: 50%; /* 6 columns */
-  }
+	.row-offcanvas-right.active {
+		right: 50%; /* 6 columns */
+	}
 
-  .row-offcanvas-left.active {
-    left: 50%; /* 6 columns */
-  }
+	.row-offcanvas-left.active {
+		left: 50%; /* 6 columns */
+	}
 
-  .sidebar-offcanvas {
-    position: absolute;
-    top: 0;
-    width: 50%; /* 6 columns */
-  }
+	.sidebar-offcanvas {
+		position: absolute;
+		top: 0;
+		width: 50%; /* 6 columns */
+	}
 }
-
-/*.header {
-	height: 25px;
-	padding: 4px;
-	font-size: 20px;
-	background-color: #444;
-	color: #ccc;
-}*/
-/*.left-panel {
-	float: left;
-	width: 240px;
-}
-.right-panel {
-	float: right;
-	width: 640px;
-}*/
-
-/*#widget-list {
-	background-color: #EEE;
-	margin: 10px;
-	padding: 10px 10px 10px 0;
-}
-#widget-list li{
-	list-style: none;
-	cursor: pointer;
-	padding: 3px 0;
-}
-#widget-list li:hover{
-	color: 000;
-}*/
 
 #code-view {
 	background-color: #DDD;

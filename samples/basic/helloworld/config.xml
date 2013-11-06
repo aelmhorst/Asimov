@@ -8,49 +8,49 @@ http://www.metrodigi.com
 -->
 <?xml version="1.0" encoding="utf-8"?>
 <widget>
-    <!-- Name of the widget, url attribute specifies external URL for this widget, help-url specifies URL to the help page-->
-    <name url="http://chaucercloud.com/dummywidget" help-url="http://chaucercloud.com/dummyhelp">HelloWorld</name>
+	<!-- Name of the widget, url attribute specifies external URL for this widget, help-url specifies URL to the help page-->
+	<name url="http://chaucercloud.com/dummywidget" help-url="http://chaucercloud.com/dummyhelp">HelloWorld</name>
 
-    <!-- Author of the widget and URL specifies Author's webpage -->
-    <author url="http://chaucercloud.com/dummyauthor">Metrodigi</author>
+	<!-- Author of the widget and URL specifies Author's webpage -->
+	<author url="http://chaucercloud.com/dummyauthor">Metrodigi</author>
 
-    <!-- version of the widget -->
-    <version>0.1</version>
+	<!-- version of the widget -->
+	<version>0.1</version>
 
-    <!-- Unique ID of the widget, this doesn't change, and has to be unique --> 
-    <id>HELLO_EF3A</id>
+	<!-- Unique ID of the widget, this doesn't change, and has to be unique --> 
+	<id>HELLO_EF3A</id>
 
-    <!-- Lable which should be visible to user for identification --> 
-    <label>Hello World</label>
+	<!-- Lable which should be visible to user for identification --> 
+	<label>Hello World</label>
 
-    <!-- Description of the widget  --> 
-    <description>Basic 'Hello World' Widget</description>
+	<!-- Description of the widget  --> 
+	<description>Basic 'Hello World' Widget</description>
 
-    <!-- Dimension of the widget Editor, not widget.--> 
-    <dimensions width="530" height="260"/>
+	<!-- Dimension of the widget Editor, not widget.--> 
+	<dimensions width="530" height="260"/>
 
-    <!-- List of files which are used for widget in either Editor or book.
-      -- resource attribute value can be either 'editor' or 'book'
-      -- 'editor' specifies that file will be used / loaded in Editor.
-      -- 'book' specifies that file will be used / loaded in Book, so it should be exported to book.
-    -->
-    <files>
-        <filename resource='editor' mainView='true'>editor.html</filename>
-        <filename resource='editor'>editor.js</filename>
-        <filename resource='editor'>editor.css</filename>
-        <filename resource='editor' type="icon">helloworld.gif</filename>
-        <filename resource='editor' type="placeholder">helloworld.png</filename>
+	<!-- List of files which are used for widget in either Editor or book.
+	  -- resource attribute value can be either 'editor' or 'book'
+	  -- 'editor' specifies that file will be used / loaded in Editor.
+	  -- 'book' specifies that file will be used / loaded in Book, so it should be exported to book.
+	-->
+	<files>
+		<filename resource='editor' mainView='true'>editor.html</filename>
+		<filename resource='editor'>editor.js</filename>
+		<filename resource='editor'>editor.css</filename>
+		<filename resource='editor' type="icon">helloworld.gif</filename>
+		<filename resource='editor' type="placeholder">helloworld.png</filename>
 
-        <filename resource="book" init-script="true">helloworld.js</filename>
-        <filename resource="book">helloworld.css</filename>
-    </files>
-    
-    <!-- Depedencies for this widget, resource=”book” defines that it is for book only. It is ordered -->
-    <dependencies>
-        <!-- <dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
-        <dependency resource="book">external/mootools-more-1.4.0.1.js</dependency> -->
-    </dependencies>
-    
-    <params>
-    </params>
+		<filename resource="book" init-script="true">helloworld.js</filename>
+		<filename resource="book">helloworld.css</filename>
+	</files>
+	
+	<!-- Depedencies for this widget, resource=”book” defines that it is for book only. It is ordered -->
+	<dependencies>
+		<!-- <dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
+		<dependency resource="book">external/mootools-more-1.4.0.1.js</dependency> -->
+	</dependencies>
+	
+	<params>
+	</params>
 </widget>

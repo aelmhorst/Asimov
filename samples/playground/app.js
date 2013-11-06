@@ -41,7 +41,7 @@ http://www.metrodigi.com
 		},
 		'popup': {
 			jsString: "new epubWidget.Popup($('sample'), '<p>Popup with close btn <br/> Lorem ipsum blah blah bla....</p>' ," +
-    			"{'title':'Test title', 'size':{width: 500, height:300}, closeBtn: true});",
+				"{'title':'Test title', 'size':{width: 500, height:300}, closeBtn: true});",
 			content: "Click here to open Popup"
 		}
 	};

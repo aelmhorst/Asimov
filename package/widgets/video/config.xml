@@ -8,45 +8,45 @@ http://www.metrodigi.com
 -->
 <?xml version="1.0" encoding="utf-8"?>
 <widget>
-    <!-- Name of the widget, url attribute specifies external URL for this widget, help-url specifies URL to the help page-->
-    <name url="http://chaucercloud.com/dummywidget" help-url="http://chaucercloud.com/dummyhelp">Video</name>
+	<!-- Name of the widget, url attribute specifies external URL for this widget, help-url specifies URL to the help page-->
+	<name url="http://chaucercloud.com/dummywidget" help-url="http://chaucercloud.com/dummyhelp">Video</name>
 
-    <!-- Author of the widget and URL specifies Author's webpage -->
-    <author url="http://chaucercloud.com/dummyauthor">Metrodigi</author>
+	<!-- Author of the widget and URL specifies Author's webpage -->
+	<author url="http://chaucercloud.com/dummyauthor">Metrodigi</author>
 
-    <!-- version of the widget -->
-    <version>0.1</version>
+	<!-- version of the widget -->
+	<version>0.1</version>
 
-    <!-- Unique ID of the widget, this doesn't change, and has to be unique --> 
-    <id>EPUB_WIDGET_VIDEO</id>
+	<!-- Unique ID of the widget, this doesn't change, and has to be unique --> 
+	<id>EPUB_WIDGET_VIDEO</id>
 
-    <!-- Lable which should be visible to user for identification --> 
-    <label>Video</label>
+	<!-- Lable which should be visible to user for identification --> 
+	<label>Video</label>
 
-    <!-- Description of the widget  --> 
-    <description>Add Video to the Book</description>
+	<!-- Description of the widget  --> 
+	<description>Add Video to the Book</description>
 
-    <!-- Dimension of the widget Editor, not widget.--> 
-    <dimensions width="530" height="260"/>
+	<!-- Dimension of the widget Editor, not widget.--> 
+	<dimensions width="530" height="260"/>
 
-    <!-- List of files which are used for widget in either Editor or book.
-      -- resource attribute value can be either 'editor' or 'book'
-      -- 'editor' specifies that file will be used / loaded in Editor.
-      -- 'book' specifies that file will be used / loaded in Book, so it should be exported to book.
-    -->
-    <files>
-        <filename resource="book" init-script="true">video.js</filename>
-        <filename resource="book">video.css</filename>
-    </files>
-    
-    <!-- Depedencies for this widget, resource=”book” defines that it is for book only. It is ordered -->
-    <dependencies>
-        <dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
-        <dependency resource="book">external/mootools-more-1.4.0.1-yc.js</dependency>
-        <dependency resource="book">mootools-drag-touch.js</dependency>
-        <dependency resource="book">common.js</dependency>
-    </dependencies>
-    
-    <params>
-    </params>
+	<!-- List of files which are used for widget in either Editor or book.
+	  -- resource attribute value can be either 'editor' or 'book'
+	  -- 'editor' specifies that file will be used / loaded in Editor.
+	  -- 'book' specifies that file will be used / loaded in Book, so it should be exported to book.
+	-->
+	<files>
+		<filename resource="book" init-script="true">video.js</filename>
+		<filename resource="book">video.css</filename>
+	</files>
+	
+	<!-- Depedencies for this widget, resource=”book” defines that it is for book only. It is ordered -->
+	<dependencies>
+		<dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
+		<dependency resource="book">external/mootools-more-1.4.0.1-yc.js</dependency>
+		<dependency resource="book">mootools-drag-touch.js</dependency>
+		<dependency resource="book">common.js</dependency>
+	</dependencies>
+	
+	<params>
+	</params>
 </widget>

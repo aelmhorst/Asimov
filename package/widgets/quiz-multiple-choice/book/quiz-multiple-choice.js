@@ -319,6 +319,6 @@ epubWidget.QuizSummary = new Class({
 				count++;
 			}
 		});
-		return count;		
+		return count;
 	}
 });

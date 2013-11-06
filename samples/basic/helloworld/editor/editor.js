@@ -29,15 +29,15 @@ http://www.metrodigi.com
 		return 'new HelloWorld(' + paramsStr + ')';
 	}
 
-    document.getElementById('saveButton').addEventListener('click', function(){
-    	var options = {
-    		size: {width: 200, height: 100}
-    	};
-    	EPUB_WIDGET_META.save(getSerializedParams(), makeJSString(), options);
-    }, true);
+	document.getElementById('saveButton').addEventListener('click', function(){
+		var options = {
+			size: {width: 200, height: 100}
+		};
+		EPUB_WIDGET_META.save(getSerializedParams(), makeJSString(), options);
+	}, true);
 
-    document.getElementById('cancelButton').addEventListener('click', function(){
-    	EPUB_WIDGET_META.cancel();
-    }, true);
+	document.getElementById('cancelButton').addEventListener('click', function(){
+		EPUB_WIDGET_META.cancel();
+	}, true);
 
 })();

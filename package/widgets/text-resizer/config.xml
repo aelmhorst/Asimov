@@ -8,37 +8,37 @@ http://www.metrodigi.com
 -->
 <?xml version="1.0" encoding="utf-8"?>
 <widget>
-    <name>Resizer</name>
-    <author>Metrodigi</author>
-    <version>0.1</version>
-    <id>EPUB_WIDGET_TEXT_RESIZER</id>
-    <label>Text Resizer</label>
-    <description>Widget to resize content</description>
-    <dimensions width="530" height="100"/>
-    <files>
-        <filename resource='book' import='true' init-script="true">text-resizer.js</filename>
-        <filename resource='book' import='true'>text-resizer.css</filename>
-        <filename resource="book" import='true'>images/reset.png</filename>
-        <filename resource="book" import='true'>images/zoom-in.png</filename>
-        <filename resource="book" import='true'>images/zoom-out.png</filename>
-        <filename resource="book" import='true'>images/reset-modern.png</filename>
-        <filename resource="book" import='true'>images/zoom-in-modern.png</filename>
-        <filename resource="book" import='true'>images/zoom-out-modern.png</filename>
-        <filename resource="book" import='true'>images/reset-classic.png</filename>
-        <filename resource="book" import='true'>images/zoom-in-classic.png</filename>
-        <filename resource="book" import='true'>images/zoom-out-classic.png</filename>
-        <filename resource="book" import='true'>images/reset-playful.png</filename>
-        <filename resource="book" import='true'>images/zoom-in-playful.png</filename>
-        <filename resource="book" import='true'>images/zoom-out-playful.png</filename>
-    </files>
-    <!-- Depedencies for this widget, resource=”book” defines that it is for book only. It is ordered -->
-    <dependencies>
-        <dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
-        <dependency resource="book">external/mootools-more-1.4.0.1-yc.js</dependency>
-        <dependency resource="book">mootools-drag-touch.js</dependency>
-        <dependency resource="book">common.js</dependency>
-    </dependencies>
-    <params>
-        <param key="noconfig">true</param>
-    </params>
+	<name>Resizer</name>
+	<author>Metrodigi</author>
+	<version>0.1</version>
+	<id>EPUB_WIDGET_TEXT_RESIZER</id>
+	<label>Text Resizer</label>
+	<description>Widget to resize content</description>
+	<dimensions width="530" height="100"/>
+	<files>
+		<filename resource='book' import='true' init-script="true">text-resizer.js</filename>
+		<filename resource='book' import='true'>text-resizer.css</filename>
+		<filename resource="book" import='true'>images/reset.png</filename>
+		<filename resource="book" import='true'>images/zoom-in.png</filename>
+		<filename resource="book" import='true'>images/zoom-out.png</filename>
+		<filename resource="book" import='true'>images/reset-modern.png</filename>
+		<filename resource="book" import='true'>images/zoom-in-modern.png</filename>
+		<filename resource="book" import='true'>images/zoom-out-modern.png</filename>
+		<filename resource="book" import='true'>images/reset-classic.png</filename>
+		<filename resource="book" import='true'>images/zoom-in-classic.png</filename>
+		<filename resource="book" import='true'>images/zoom-out-classic.png</filename>
+		<filename resource="book" import='true'>images/reset-playful.png</filename>
+		<filename resource="book" import='true'>images/zoom-in-playful.png</filename>
+		<filename resource="book" import='true'>images/zoom-out-playful.png</filename>
+	</files>
+	<!-- Depedencies for this widget, resource=”book” defines that it is for book only. It is ordered -->
+	<dependencies>
+		<dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
+		<dependency resource="book">external/mootools-more-1.4.0.1-yc.js</dependency>
+		<dependency resource="book">mootools-drag-touch.js</dependency>
+		<dependency resource="book">common.js</dependency>
+	</dependencies>
+	<params>
+		<param key="noconfig">true</param>
+	</params>
 </widget>
