@@ -16,7 +16,6 @@ epubWidget.ScrollingSidebar = new Class({
 		width: null
 	},
 	
-	//"new md.widgets.ShareWidget($('51240a0c0e50b'), 'http://www.metrodigi.com', { services: ["facebook","google","twitter"] })"
 	initialize: function(ele, options){
 		this.parent("scrolling-sidebar", ele, options);
 		ele.empty();
@@ -25,7 +24,6 @@ epubWidget.ScrollingSidebar = new Class({
 		var tbody = new Element('div', {
 			'class':'sidebar-widget ' + clsAppend
 		});
-		//var tbody = new Element('tbody').inject(this.tbl);
 		
 		//add header
 		if(this.options.header && this.options.header.length>0) {
