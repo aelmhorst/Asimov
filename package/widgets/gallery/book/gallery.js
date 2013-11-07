@@ -98,7 +98,7 @@ var Gallery = this.Gallery = new Class({
 			nextIndex = this.index = next.retrieve('gallery-index')
 			slideData = {
 				previous: { element: previous, index: previous.retrieve('gallery-index') },
-				next:     { element: next,     index: nextIndex }
+				next: { element: next, index: nextIndex }
 			};
 
 		this.fireEvent('show', slideData);
@@ -289,22 +289,22 @@ Gallery.defineTransitions({
 		}
 		if (type != 'slide') {
 			data.next
-			    .set('tween', tweenOptions)
-			    .setStyle(styles.property, 100 * styles.inverted + '%');
+				.set('tween', tweenOptions)
+				.setStyle(styles.property, 100 * styles.inverted + '%');
 			data.next.tween(styles.property, 0);
 		}
 		if (type != 'blind'){
 			data.previous
-			    .set('tween', tweenOptions)
-			    .tween(styles.property, -(100 * styles.inverted));
+				.set('tween', tweenOptions)
+				.tween(styles.property, -(100 * styles.inverted));
 		}
 	}
 
 	['left', 'right', 'up', 'down'].each(function(direction){
 
 		var capitalized = direction.capitalize(),
-		    blindName = 'blind' + capitalized,
-		    slideName = 'slide' + capitalized;
+			blindName = 'blind' + capitalized,
+			slideName = 'slide' + capitalized;
 
 		[
 			['push' + capitalized, (function(){
@@ -401,12 +401,12 @@ epubWidget.Gallery = new Class({
 		}
 		$(this.gallery).addEvents({
 			swipe: function(event){
-		    	gallery['show' + ((event.direction == 'left') ? 'Next' : 'Previous')]({
-		      		transition: 'blind' + event.direction.capitalize() 
-		    	});
+				gallery['show' + ((event.direction == 'left') ? 'Next' : 'Previous')]({
+					transition: 'blind' + event.direction.capitalize() 
+				});
 			}.bind(this),
 			mousedown: function(event){
-		    	event.stop();
+				event.stop();
 			}
 		});
 
@@ -414,11 +414,11 @@ epubWidget.Gallery = new Class({
 			this.slider = new Slider(sliderInfo.el, sliderInfo.knob, sliderInfo.options);
 			this.slider.addEvent('change',function(pos){
 				this.current = pos;
-		    	console.log('slider moved ' + pos);
-		    	if(this.gallery.slides.length <= pos) {
-		    		return;
-		    	}
-		        this.gallery.show(pos);
+				console.log('slider moved ' + pos);
+				if(this.gallery.slides.length <= pos) {
+					return;
+				}
+				this.gallery.show(pos);
 			}.bind(this));
 		}
 	},

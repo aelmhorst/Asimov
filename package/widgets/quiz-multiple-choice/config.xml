@@ -27,8 +27,8 @@ Demos: http://widgets.chaucercloud.com
 
 	<params>
 		<param key="compatibility">
-            <access booktype="Reflowable">true</access>
-            <access booktype="FixedLayout">true</access>
-        </param>
+			<access booktype="Reflowable">true</access>
+			<access booktype="FixedLayout">true</access>
+		</param>
 	</params>
 </widget>
