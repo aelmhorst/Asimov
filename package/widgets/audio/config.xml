@@ -24,16 +24,14 @@ Demos: http://widgets.chaucercloud.com
 		<filename resource="book" type="shared">mootools-drag-touch.js</filename>
 		<filename resource="book" type="shared">common.js</filename>
 	</files>
-	
-	<dependencies/>
-	
+		
 	<params>
 		<param key="compatibility">
-            <access booktype="Reflowable">true</access>
-            <access booktype="FixedLayout">true</access>
-        </param>
-        <param key="editor">
+			<access booktype="Reflowable">true</access>
+			<access booktype="FixedLayout">true</access>
+		</param>
+		<param key="editor">
 			<dimensions width="800" height="600"/>
-        </param>
+		</param>
 	</params>
 </widget>

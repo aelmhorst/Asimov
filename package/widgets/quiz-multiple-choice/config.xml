@@ -8,13 +8,14 @@ Demos: http://widgets.chaucercloud.com
 <?xml version="1.0" encoding="utf-8"?>
 <widget>
 	<name>Multiple Choice Quiz Widget</name>
-	<author>Metrodigi</author>
-	<version>0.1</version>
-	<id>EPUB_WIDGET_QUIZ_MULTI_CHOICE</id>
 	<label>Multiple Choice Quiz</label>
 	<description>Create multiple choice or true/false quizzes easily.</description>
+	<version>0.1</version>
+	<id>EPUB_WIDGET_QUIZ_MULTI_CHOICE</id>
+	<author url="http://www.metrodigi.com">Metrodigi</author>
 	<license url="http://opensource.org/licenses/MIT">MIT License</license>
-	<dimensions width="620" height="700"/>
+	<help url="http://widgets.chaucercloud.com/help">Get help for this widget at www.chaucercloud.com</help>
+	
 	<files>
 		<filename resource="book" import="true" init-script="true">quiz-multiple-choice.js</filename>
 		<filename resource="book" import="true">quiz-multiple-choice.css</filename>
