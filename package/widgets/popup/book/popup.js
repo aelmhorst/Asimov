@@ -27,8 +27,9 @@ epubWidget.Popup = new Class({
 	},
 	createModal: function () {
 		// Setup the modal elements.
-		var modal = new Element('div', {'class':'modal'}),
+		var modal = new Element('div', {'class':'epubWidget-modal'}),
 			mask = new Mask(document.body, {
+				'class': 'epubWidget-mask',
 				destroyOnHide: false,
 				width: '100%', height:'100%'
 			}),

@@ -6,7 +6,7 @@ Demos: http://widgets.chaucercloud.com
 
 */
 
-.mask {
+.epubWidget-mask {
 	background-color: rgba(0, 0, 0, 0.5);
 	top: 0;
 	left: 0;
@@ -14,7 +14,7 @@ Demos: http://widgets.chaucercloud.com
 	bottom: 0;
 	z-index: 1000;
 }
-.modal {
+.epubWidget-modal {
 	top: 50%;
 	left: 50%;
 	z-index: 2000;
@@ -34,7 +34,7 @@ Demos: http://widgets.chaucercloud.com
 	background-clip: padding-box;
 	font-family: Arial, Helvetica, sans-serif;
 }
-.modal .modal-header{
+.epubWidget-modal .modal-header{
 	border-bottom: 1px solid #eee;
 	padding: 9px 20px 6px 20px;
 	font-size: 26px;
@@ -44,11 +44,11 @@ Demos: http://widgets.chaucercloud.com
 	-webkit-border-radius: 5px 5px 0 0;
 	border-radius: 5px 5px 0 0; 
 }
-.modal .modal-header h4{
+.epubWidget-modal .modal-header h4{
 	-webkit-margin-before: 0;
 	-webkit-margin-after: 0;
 }
-.modal .close {
+.epubWidget-modal .close {
 	position: absolute;
 	right: 10px;
 	top: 10px;
@@ -57,7 +57,7 @@ Demos: http://widgets.chaucercloud.com
 	font-size: 18px;
 	padding: 5px;
 }
-.modal .modal-body {
+.epubWidget-modal .modal-body {
 	/* uncomment if book is KF8 */
 	/* overflow: auto;*/
 	min-height: 40px;
@@ -65,17 +65,17 @@ Demos: http://widgets.chaucercloud.com
 	word-wrap: break-word;
 	overflow: auto;
 }
-.modal .modal-body p{
+.epubWidget-modal .modal-body p{
 	padding-bottom:.5em;
 }
 
 /* Default font style for popup content */
-.modal .modal-body p, .modal .modal-body div {
+.epubWidget-modal .modal-body p, .epubWidget-modal .modal-body div {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #000000;
 }
-.modal .modal-footer {
+.epubWidget-modal .modal-footer {
 	background-color: #f5f5f5;
 	padding: 14px 30px 15px;
 	border-top: 1px solid #ddd;
@@ -91,22 +91,22 @@ Demos: http://widgets.chaucercloud.com
 	-webkit-border-radius: 0 0 5px 5px;
 	border-radius: 0 0 5px 5px;
 }
-.modal .modal-footer:before, .modal .modal-footer:after {
+.epubWidget-modal .modal-footer:before, .epubWidget-modal .modal-footer:after {
 	display: table;
 	content: "";
 }
-.modal .modal-footer:after {
+.epubWidget-modal .modal-footer:after {
   clear: both;
 }
-.modal .modal-footer .btn {}
-.modal .modal-footer .btn.primary { 
+.epubWidget-modal .modal-footer .btn {}
+.epubWidget-modal .modal-footer .btn.primary { 
 	font-size:14px;
 	line-height:14px;
 	display: block;
 	padding:7px 0 5px 0;
 	text-align: center;
 	text-decoration:none;
-	-moz-border-radius:4px;
+	-moz-border-radius:4`x;
 	-webkit-border-radius:4px;
 	border-radius:4px; 
 	cursor:pointer;
