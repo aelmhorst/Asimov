@@ -21,7 +21,7 @@ Demos: http://widgets.chaucercloud.com
 	height: 100%;
 }
 
-/*NOTE: .sb-inner padding and border values are used in JS. Please compare with JS.*/
+/* NOTE: .sb-inner padding and border values are used in JS. Compare with JS. */
 .epubWidget-scrolling-sidebar .sb-inner{
 	word-wrap: break-word; 
 	padding: 10px;
@@ -42,7 +42,7 @@ Demos: http://widgets.chaucercloud.com
 	color: black;
 }
 
-/*if header*/
+/* If header */
 .epubWidget-scrolling-sidebar .sidebar-header{
 	height: 38px;
 }
@@ -65,7 +65,7 @@ Demos: http://widgets.chaucercloud.com
 	border-top-left-radius: 0;
 }
 
-/*if footer*/
+/* If footer */
 .epubWidget-scrolling-sidebar .sidebar-footer{
 	height: 38px;
 	display: -webkit-box;
@@ -90,15 +90,15 @@ Demos: http://widgets.chaucercloud.com
 	border-bottom-left-radius: 0;
 }
 
-/*if both header and footer*/
+/* If both header and footer */
 .epubWidget-scrolling-sidebar .sb-header.sb-footer .sidebar-content{
 	height: calc(100% - 76px);
 }
 .epubWidget-scrolling-sidebar .sb-gradient{
   	background: #f8f8f8; /* Old browsers */
 	background: -moz-linear-gradient(top,  #f8f8f8 0%, #efefef 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  #f8f8f8 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#efefef)); /* Chrome, Safari4+ */
+	background: -webkit-linear-gradient(top,  #f8f8f8 0%,#efefef 100%); /* Chrome10+, Safari5.1+ */
 	background: -o-linear-gradient(top,  #f8f8f8 0%,#efefef 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #f8f8f8 0%,#efefef 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #f8f8f8 0%,#efefef 100%); /* W3C */

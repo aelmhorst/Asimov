@@ -7,19 +7,18 @@ Demos: http://widgets.chaucercloud.com
 -->
 <?xml version="1.0" encoding="utf-8"?>
 <widget>
-	<name>Sidebar</name>
+	<name>Scrolling Sidebar Widget</name>
 	<author>Metrodigi</author>
 	<version>0.1</version>
 	<id>EPUB_WIDGET_SIDEBAR</id>
 	<label>Scrolling Sidebar</label>
-	<description>Widget to add Sidebar</description>
-	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
+	<description>Scrolling sidebars enable you to have a lot of text and images in a small area on a page.</description>
+	<license url="http://opensource.org/licenses/MIT">MIT License</license>
 	
 	<files>
 		<filename resource="book" import="true" init-script="true">scrolling-sidebar.js</filename>
 		<filename resource="book" import="true">scrolling-sidebar.css</filename>
 	</files>
-	<!-- Depedencies for this widget, resource=”book” defines that it is for book only. It is ordered -->
 	<dependencies>
 		<dependency resource="book">external/mootools-core-1.4.5-full-nocompat-yc.js</dependency>
 		<dependency resource="book">external/mootools-more-1.4.0.1-yc.js</dependency>
@@ -28,10 +27,9 @@ Demos: http://widgets.chaucercloud.com
 	</dependencies>
 	<params>
 		<param key="compatibility">
-            <access booktype="Refloable">true</access>
+            <access booktype="Reflowable">true</access>
             <access booktype="FixedLayout">true</access>
         </param>
-
         <param key="editor">
     		<dimensions width="740" height="660"/>
         </param>

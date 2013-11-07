@@ -7,13 +7,13 @@ Demos: http://widgets.chaucercloud.com
 -->
 <?xml version="1.0" encoding="utf-8"?>
 <widget>
-	<name>Popup</name>
+	<name>Popup Widget</name>
 	<author>Metrodigi</author>
 	<version>0.1</version>
 	<id>EPUB_WIDGET_POPUP</id>
-	<label>Popup widget</label>
-	<description>Widget for creating Popup</description>
-	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
+	<label>Popup</label>
+	<description>Popups are a handy way to add glossary definitions or additional information to your book content.</description>
+	<license url="http://opensource.org/licenses/MIT">MIT License</license>
 	
 	<files>
 		<filename resource="book" import="true" init-script="true">popup.js</filename>
@@ -26,7 +26,7 @@ Demos: http://widgets.chaucercloud.com
 	</files>
 	<params>
 		<param key="compatibility">
-            <access booktype="Refloable">true</access>
+            <access booktype="Reflowable">true</access>
             <access booktype="FixedLayout">true</access>
         </param>
 

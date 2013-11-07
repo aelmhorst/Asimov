@@ -7,13 +7,13 @@ Demos: http://widgets.chaucercloud.com
 -->
 <?xml version="1.0" encoding="utf-8"?>
 <widget>
-	<name>Gallery</name>
-	<author>Metrodigi</author>
+	<name>Gallery Widget</name>
+	<author url="http://www.metrodigi.com">Metrodigi</author>
 	<version>0.1</version>
 	<label>Gallery</label>
 	<id>EPUB_WIDGET_GALLERY</id>
-	<description>gallery widget</description>
-	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License, Version 2.0</license>
+	<description>Create beautiful galleries or interactive image sequences with this widget.</description>
+	<license url="http://opensource.org/licenses/MIT">MIT License</license>
 	
 	<files>
 		<filename resource="book" import="true" init-script="true">gallery.js</filename>
@@ -27,10 +27,9 @@ Demos: http://widgets.chaucercloud.com
 	
 	<params>
 		<param key="compatibility">
-            <access booktype="Refloable">true</access>
+            <access booktype="Reflowable">true</access>
             <access booktype="FixedLayout">true</access>
         </param>
-
         <param key="editor">
         	<dimensions width="950" height="690"/>
         </param>

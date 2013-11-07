@@ -5,10 +5,7 @@ MIT License
 Demos: http://widgets.chaucercloud.com
 
 */
-/*
- * Style tweaks
- * --------------------------------------------------
- */
+
 html {
 	overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
@@ -21,8 +18,7 @@ body {
 .navbar-brand {
 	padding: 8px 15px;
 }
-
-a{
+a {
 	cursor: pointer;
 }
 
@@ -37,25 +33,20 @@ a{
 		-moz-transition: all 0.25s ease-out;
 		transition: all 0.25s ease-out;
 	}
-
 	.row-offcanvas-right
 	.sidebar-offcanvas {
 		right: -50%; /* 6 columns */
 	}
-
 	.row-offcanvas-left
 	.sidebar-offcanvas {
 		left: -50%; /* 6 columns */
 	}
-
 	.row-offcanvas-right.active {
 		right: 50%; /* 6 columns */
 	}
-
 	.row-offcanvas-left.active {
 		left: 50%; /* 6 columns */
 	}
-
 	.sidebar-offcanvas {
 		position: absolute;
 		top: 0;
@@ -68,16 +59,14 @@ a{
 	color: #666;
 	padding: 10px;
 }
-
 #code-view #code {
-	font-family: courier;
+	font-family: "Courier New", Courier, monospace;
 	min-height: 150px;
 	border: 1px solid #CCC;
 	font-size: 13px;
 	margin: 10px 0;
 	background-color: #EEE;
 }
-
 #preview-view {
 	margin: 10px 0;
 	padding: 10px;
