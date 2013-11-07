@@ -105,7 +105,7 @@ epubWidget.QuizMultipleChoice = new Class({
 			qEl.setAttribute(self.options.correctMsgAttr, questionData.correctMsg);
 			qEl.setAttribute(self.options.incorrectMsgAttr, questionData.incorrectMsg);
 
-			var textEl = new Element('h5', {
+			var textEl = new Element('p', {
 				html: '<span class="order">'+question.order+'</span> ' + question.text,
 				'class': 'question-text'
 			});

@@ -30,7 +30,6 @@ epubWidget.util.Flash = new Class({
 		type:'info', // One of 'error', 'success', 'info', 'warning'
 		time: 5000,
 		position: 'top' // One of 'top', 'center', 'bottom',
-		// width: 'auto'
 	},
 	initialize:function(options){
 		this.setOptions(options);
@@ -56,13 +55,6 @@ epubWidget.util.Flash = new Class({
 		this.flashTimer = this.destroy.bind(this).delay(this.options.time);
 	},
 	_center: function(div) {
-		// div.setStyles({
-		//   'left': '50%',
-		//   'top': '50%',
-		//   'position':'absolute',
-		//   'margin-left': - div.getComputedSize().width/2,
-		//   'margin-top': - div.getComputedSize().height/2
-		// });
 	},
 	destroy: function(){
 		if(this.flashDiv) {

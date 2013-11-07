@@ -51,7 +51,7 @@ We only accept issues that are bug reports or feature requests. Bugs must be iso
 
 - No semicolons
 - Comma first
-- 2 spaces (no tabs)
+- 1 actual tab (not 4 spaces)
 - strict mode
 - "Attractive"
 

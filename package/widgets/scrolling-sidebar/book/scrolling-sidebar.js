@@ -26,7 +26,7 @@ epubWidget.ScrollingSidebar = new Class({
 		
 		//add header
 		if(this.options.header && this.options.header.length>0) {
-			tbody.adopt(this.addTr(this.options.header, 'header', 'sb-gradient', 'h5'));
+			tbody.adopt(this.addTr(this.options.header, 'header', 'sb-gradient', 'h4'));
 		}
 		
 		//add content
@@ -34,7 +34,7 @@ epubWidget.ScrollingSidebar = new Class({
 
 		//add footer
 		if(this.options.footer && this.options.footer.length>0) {
-			tbody.adopt(this.addTr(this.options.footer, 'footer', 'sb-gradient', 'small'));
+			tbody.adopt(this.addTr(this.options.footer, 'footer', 'sb-gradient', 'h5'));
 		}
 
 		// Set the height of the container

@@ -17,10 +17,10 @@ epubWidget.Audio = new Class({
 	},
 	initialize: function(containerEl, url, options){
 		if(!containerEl) {
-			throw("Container Element needs to be specified.")
+			throw("Container Element needs to be specified.");
 		}
 		if(!url) {
-			throw("URL(s) needs to be specified.")
+			throw("URL(s) needs to be specified.");
 		}
 
 		this.parent("audio", containerEl, options);

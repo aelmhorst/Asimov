@@ -29,10 +29,10 @@ epubWidget.TextResizer = new Class({
 		};
 
 		if(this.options.createEl) {
-			var mainEl = new Element('div', {'class': this.options.widgetContainerClass});
-			var zoomInEl = new Element('div', {text: '+', 'class': this.options.widgetZoomInClass + " zoom-action"});
-			var zoomOutEl = new Element('div', {text: '-', 'class': this.options.widgetZoomOutClass + " zoom-action"});
-			var zoomResetEl = new Element('div', {text: '0', 'class': this.options.widgetZoomResetClass + " zoom-action"});
+			var mainEl = new Element('ul', {'class': this.options.widgetContainerClass});
+			var zoomInEl = new Element('li', {text: '+', 'class': this.options.widgetZoomInClass + " zoom-action"});
+			var zoomOutEl = new Element('li', {text: '-', 'class': this.options.widgetZoomOutClass + " zoom-action"});
+			var zoomResetEl = new Element('li', {text: '0', 'class': this.options.widgetZoomResetClass + " zoom-action"});
 			var clearEl = new Element('div', {'style': 'clear: both'});
 			mainEl.adopt(zoomInEl, zoomOutEl, zoomResetEl, clearEl);
 			this.el.empty();

@@ -75,6 +75,7 @@ Demos: http://widgets.chaucercloud.com
 }
 .epubWidget-scrolling-sidebar .sb-footer .sidebar-footer .sb-inner{
 	padding: 0 10px;
+	margin: 0;
 	border-top: none;
 	border-top-right-radius: 0;
 	border-top-left-radius: 0;
